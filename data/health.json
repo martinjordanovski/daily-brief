@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25T12:33:06+00:00",
+ "checked": "2026-11-25T12:37:02+00:00",
  "sources": [
   {
    "category": "ai",
@@ -123,15 +123,15 @@
    "category": "tech",
    "source": "Hacker News",
    "ok": true,
-   "items": 14,
-   "fresh": 12
+   "items": 13,
+   "fresh": 11
   },
   {
    "category": "hype",
    "source": "Hacker News",
    "ok": true,
-   "items": 6,
-   "fresh": 5
+   "items": 5,
+   "fresh": 4
   },
   {
    "category": "hype",
