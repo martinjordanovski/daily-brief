@@ -9,12 +9,12 @@
     <title>Daily brief, 25 Nov 2026</title>
     <link>https://martinjordanovski.com/daily-brief/#2026-11-25</link>
     <guid isPermaLink="false">daily-brief-2026-11-25</guid>
-    <pubDate>Wed, 25 Nov 2026 12:57:05 +0100</pubDate>
-    <description>Tidal to ban AI-generated music from December 9: Tidal will stop accepting fully AI-generated music on December 9 and will delete about 29 million such songs. It expects to reject roughly 80,000 to 85,000 tracks a day. Songs made with AI assistance remain allowed.
+    <pubDate>Wed, 25 Nov 2026 12:58:44 +0100</pubDate>
+    <description>Tidal bans fully AI-generated music from December 9: Tidal will ban fully AI-generated music on December 9 and delete about 29 million such songs. It expects to reject roughly 80,000 to 85,000 tracks a day, while still accepting music made with AI assistance.
 
-Rust 1.100 stabilises the never type after a decade of work: Rust 1.100.0, released 12 November 2026, stabilises the never type (!) and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds DropGuard, and adds an opt-in dependency cooldown setting to Cargo.
+Active intrusion campaign targets Check Point security management servers: An active intrusion campaign against Check Point security management servers is drawing significant attention on Hacker News. The available item gives no further technical detail.
 
-Microsoft declares 'Code Red' after nearly 24-hour Outlook and Exchange outage: An Exchange Online and Outlook outage cut off email for millions of customers for nearly 24 hours. Microsoft declared an internal 'Code Red' after a bug on Microsoft 365 networking gateway servers triggered it, and internal memos describe an overhaul with one-hour recovery goals.</description>
+Microsoft declares internal 'Code Red' after near-24-hour Outlook and Exchange Online outage: A nearly 24-hour Exchange Online and Outlook outage left email down for millions of customers. Reuters reports Microsoft declared an unusual internal 'Code Red' after a bug on its Microsoft 365 networking gateway servers triggered the failure.</description>
   </item>
 </channel>
 </rss>
