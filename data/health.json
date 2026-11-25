@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25T11:58:04+00:00",
+ "checked": "2026-11-25T12:33:06+00:00",
  "sources": [
   {
    "category": "ai",
@@ -110,7 +110,7 @@
    "source": "Ars Technica",
    "ok": true,
    "items": 20,
-   "fresh": 17
+   "fresh": 18
   },
   {
    "category": "tech",
@@ -123,8 +123,8 @@
    "category": "tech",
    "source": "Hacker News",
    "ok": true,
-   "items": 13,
-   "fresh": 11
+   "items": 14,
+   "fresh": 12
   },
   {
    "category": "hype",
@@ -146,6 +146,73 @@
    "ok": true,
    "items": 25,
    "fresh": 13
+  },
+  {
+   "category": "leadership",
+   "source": "MIT Sloan Management Review",
+   "ok": true,
+   "items": 20,
+   "fresh": 2
+  },
+  {
+   "category": "leadership",
+   "source": "Harvard Business Review",
+   "ok": false,
+   "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+  },
+  {
+   "category": "leadership",
+   "source": "LeadDev",
+   "ok": true,
+   "items": 10,
+   "fresh": 6
+  },
+  {
+   "category": "leadership",
+   "source": "First Round Review",
+   "ok": false,
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "category": "psychology",
+   "source": "ScienceDaily: Mind & Brain",
+   "ok": true,
+   "items": 25,
+   "fresh": 15
+  },
+  {
+   "category": "psychology",
+   "source": "Greater Good (Berkeley)",
+   "ok": true,
+   "items": 25,
+   "fresh": 4
+  },
+  {
+   "category": "psychology",
+   "source": "Psychology Today",
+   "ok": true,
+   "items": 25,
+   "fresh": 25
+  },
+  {
+   "category": "investing",
+   "source": "CNBC",
+   "ok": true,
+   "items": 25,
+   "fresh": 25
+  },
+  {
+   "category": "investing",
+   "source": "MarketWatch",
+   "ok": true,
+   "items": 10,
+   "fresh": 10
+  },
+  {
+   "category": "investing",
+   "source": "Yahoo Finance",
+   "ok": false,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   }
  ]
 }
