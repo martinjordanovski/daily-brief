@@ -75,11 +75,6 @@
         },
         {
           "type": "rss",
-          "name": "Microsoft AI",
-          "url": "https://blogs.microsoft.com/ai/feed/"
-        },
-        {
-          "type": "rss",
           "name": "NVIDIA Blog",
           "url": "https://blogs.nvidia.com/feed/"
         },
@@ -90,18 +85,13 @@
         },
         {
           "type": "rss",
-          "name": "VentureBeat AI",
-          "url": "https://venturebeat.com/category/ai/feed/"
-        },
-        {
-          "type": "rss",
           "name": "The Decoder",
           "url": "https://the-decoder.com/feed/"
         },
         {
           "type": "rss",
           "name": "Import AI",
-          "url": "https://importai.substack.com/feed"
+          "url": "https://jack-clark.net/feed/"
         },
         {
           "type": "rss",
@@ -135,11 +125,6 @@
           "type": "rss",
           "name": "Martin Fowler",
           "url": "https://martinfowler.com/feed.atom"
-        },
-        {
-          "type": "rss",
-          "name": "Lobsters",
-          "url": "https://lobste.rs/hottest.rss"
         },
         {
           "type": "hn",
