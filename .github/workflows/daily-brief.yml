@@ -1,0 +1,66 @@
+name: Daily brief
+
+on:
+  schedule:
+    - cron: "13 5 * * *"   # 05:13 UTC = 06:13 Skopje in winter, 07:13 in summer
+  workflow_dispatch:
+    inputs:
+      check_only:
+        description: "Only test the news sources (no AI call, nothing saved)"
+        type: boolean
+        default: false
+
+# Only what the job needs: push the brief. No access to issues, packages, actions, etc.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TZ: Europe/Skopje
+    steps:
+      # No third-party actions at all: nothing outside this repo runs in the job.
+      - name: Check out
+        run: git clone "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" repo
+
+      - name: Tripwire
+        working-directory: repo
+        run: python3 scripts/tripwire.py
+
+      - name: Fetch sources
+        working-directory: repo
+        run: python3 scripts/fetch.py
+
+      # The API key exists only in this one step.
+      - name: Summarize
+        if: ${{ !inputs.check_only }}
+        working-directory: repo
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/summarize.py
+
+      - name: Commit
+        if: ${{ !inputs.check_only }}
+        working-directory: repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add briefs data feed.xml
+          git diff --cached --quiet && { echo "nothing new"; exit 0; }
+          git commit -m "brief $(date +%F)"
+          git push
+
+      - name: Alert on code changes
+        working-directory: repo
+        run: |
+          if [ -s "$RUNNER_TEMP/tripwire.txt" ]; then
+            cat "$RUNNER_TEMP/tripwire.txt"
+            echo "::error::Watched files changed since the last run. If these commits are not yours, revoke the API key now."
+            exit 1
+          fi
