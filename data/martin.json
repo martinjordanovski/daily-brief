@@ -1,0 +1,72 @@
+{
+ "updated": "2026-11-25T14:29:42+01:00",
+ "youtube": {
+  "profile": "https://www.youtube.com/@martin.jordanovski",
+  "top": [
+   {
+    "id": "eivWsr4TEP0",
+    "title": "Building with AI got cheaper. Outcomes didn't. Maintaining didn't.",
+    "views": 1015,
+    "published": "2026-11-21"
+   },
+   {
+    "id": "Uzpb-Xtdv9Y",
+    "title": "4 AI Coding Workflow Philosophies. Do You Still Need One?",
+    "views": 967,
+    "published": "2026-11-08"
+   },
+   {
+    "id": "J7snn5Br4vI",
+    "title": "AI Agent Leaked Every Email (via MCP), and How to Fix It.",
+    "views": 817,
+    "published": "2026-11-06"
+   },
+   {
+    "id": "z0ID3Ntx1Z0",
+    "title": "The $6.3B Binance Hack: Bitcoin Did Exactly What It Was Built to Do.",
+    "views": 639,
+    "published": "2026-11-01"
+   }
+  ],
+  "newest": [
+   {
+    "id": "eDg7enYfMU4",
+    "title": "Same AI Agents. Why Do Some Engineers Ship While Others Babysit?",
+    "views": 88,
+    "published": "2026-11-22"
+   },
+   {
+    "id": "S_Lq3yMaw4Y",
+    "title": "AI Metrics - Are We Optimizing What We Can Count?",
+    "views": 556,
+    "published": "2026-11-15"
+   }
+  ]
+ },
+ "medium": {
+  "profile": "https://medium.com/@martin.jordanovski",
+  "top": [
+   {
+    "url": "https://medium.com/@martin.jordanovski/securing-ai-coding-agents-10-open-source-skills-hooks-sandboxes-scanners-and-ci-gates-5c8a733e1d1a",
+    "title": "Securing AI Coding Agents: 10 Open-Source Skills, Hooks, Sandboxes, Scanners and CI Gates",
+    "published": "2026-10-23",
+    "image": "https://cdn-images-1.medium.com/max/1024/1*pygGo5d__tygp7SjwEyUYA.png"
+   }
+  ],
+  "newest": [
+   {
+    "url": "https://medium.com/@martin.jordanovski/build-an-audit-trail-for-ai-coding-agents-in-a-day-b2366336c28a",
+    "title": "Build an Audit Trail for AI Coding Agents in a Day",
+    "published": "2026-11-20",
+    "image": "https://cdn-images-1.medium.com/max/1024/1*O7QnY75WrR0PUF6MqeDTRw.png"
+   },
+   {
+    "url": "https://medium.com/@martin.jordanovski/archify-vs-graphify-vs-understand-anything-vs-codebase-memory-mcp-four-bets-on-understanding-code-88703e8ad3f5",
+    "title": "Archify vs Graphify vs Understand-Anything vs codebase-memory-mcp: Four Bets on Understanding Code…",
+    "published": "2026-11-19",
+    "image": "https://cdn-images-1.medium.com/max/1024/1*mExBv6MEMLUf-wsQs8pjag.png"
+   }
+  ],
+  "top_label": "Most read"
+ }
+}

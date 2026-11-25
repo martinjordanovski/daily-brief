@@ -9,12 +9,12 @@
     <title>Daily brief, 25 Nov 2026</title>
     <link>https://martinjordanovski.com/daily-brief/#2026-11-25</link>
     <guid isPermaLink="false">daily-brief-2026-11-25</guid>
-    <pubDate>Wed, 25 Nov 2026 14:01:31 +0100</pubDate>
-    <description>Google releases Gemini 4 Neon, its first frontier model in a while: Google DeepMind has released Gemini 4 Neon, which reportedly beats rival models Astra and Fable on LiveBench. It also cut the runtime of one TypeScript-to-Rust benchmark by 48.6%.
+    <pubDate>Wed, 25 Nov 2026 14:29:38 +0100</pubDate>
+    <description>Tidal to ban fully AI-generated music from December 9: Tidal will stop allowing fully AI-generated music on December 9 and will delete roughly 27 to 29 million such tracks. It expects to reject about 80,000 to 85,000 tracks per day, while still accepting AI-assisted songs.
 
-Active intrusion campaign targets Check Point security management servers: An active intrusion campaign is targeting Check Point security management servers, a topic that drew strong discussion on Hacker News. Operators of these servers should check their exposure and review their security posture.
+Java4Shell: Oracle and OpenJDK ship fixes for a HotSpot Base64 decoder flaw: Oracle and the OpenJDK project released fixes on November 17 for CVE-2026-114938, a memory corruption bug in the HotSpot JVM's Base64 decoder. JetBrains is urging users to update its IDEs and related tools.
 
-Microsoft declares internal 'Code Red' after nearly 24-hour Outlook outage: Microsoft has declared an unusual internal 'Code Red' after an Exchange Online and Outlook outage that lasted almost a day and disrupted email for millions of customers. Internal memos reportedly describe an overhaul and a goal of one-hour recovery.</description>
+Microsoft declares internal 'Code Red' after nearly 24-hour Outlook outage: Microsoft has declared an unusual internal 'Code Red' after a nearly 24-hour Exchange Online and Outlook outage this month. A bug on Microsoft 365 networking gateway servers took email down for millions of customers.</description>
   </item>
 </channel>
 </rss>

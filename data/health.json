@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25T13:00:01+00:00",
+ "checked": "2026-11-25T13:28:08+00:00",
  "sources": [
   {
    "category": "ai",
@@ -27,14 +27,14 @@
    "source": "The Verge AI",
    "ok": true,
    "items": 10,
-   "fresh": 6
+   "fresh": 7
   },
   {
    "category": "ai",
    "source": "TechCrunch AI",
    "ok": true,
    "items": 20,
-   "fresh": 13
+   "fresh": 14
   },
   {
    "category": "ai",
@@ -146,7 +146,7 @@
    "source": "JetBrains Blog",
    "ok": true,
    "items": 12,
-   "fresh": 6
+   "fresh": 5
   },
   {
    "category": "dev",
@@ -195,7 +195,7 @@
    "source": "TechCrunch",
    "ok": true,
    "items": 20,
-   "fresh": 19
+   "fresh": 20
   },
   {
    "category": "tech",
@@ -230,14 +230,14 @@
    "source": "The Register",
    "ok": true,
    "items": 25,
-   "fresh": 19
+   "fresh": 22
   },
   {
    "category": "hype",
    "source": "Hacker News",
    "ok": true,
-   "items": 6,
-   "fresh": 5
+   "items": 7,
+   "fresh": 6
   },
   {
    "category": "hype",
@@ -279,7 +279,7 @@
    "source": "Lenny's Newsletter",
    "ok": true,
    "items": 20,
-   "fresh": 4
+   "fresh": 5
   },
   {
    "category": "leadership",
