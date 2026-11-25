@@ -1,12 +1,12 @@
 {
- "checked": "2026-11-25T12:37:02+00:00",
+ "checked": "2026-11-25T13:00:01+00:00",
  "sources": [
   {
    "category": "ai",
    "source": "OpenAI",
    "ok": true,
    "items": 25,
-   "fresh": 2
+   "fresh": 1
   },
   {
    "category": "ai",
@@ -58,6 +58,41 @@
    "fresh": 6
   },
   {
+   "category": "ai",
+   "source": "NVIDIA Blog",
+   "ok": true,
+   "items": 18,
+   "fresh": 0
+  },
+  {
+   "category": "ai",
+   "source": "Ars Technica AI",
+   "ok": true,
+   "items": 20,
+   "fresh": 6
+  },
+  {
+   "category": "ai",
+   "source": "The Decoder",
+   "ok": true,
+   "items": 10,
+   "fresh": 10
+  },
+  {
+   "category": "ai",
+   "source": "Import AI",
+   "ok": true,
+   "items": 10,
+   "fresh": 0
+  },
+  {
+   "category": "ai",
+   "source": "Latent Space",
+   "ok": true,
+   "items": 20,
+   "fresh": 1
+  },
+  {
    "category": "dev",
    "source": "GitHub Blog",
    "ok": true,
@@ -69,7 +104,7 @@
    "source": "InfoQ",
    "ok": true,
    "items": 15,
-   "fresh": 7
+   "fresh": 6
   },
   {
    "category": "dev",
@@ -87,16 +122,59 @@
   },
   {
    "category": "dev",
-   "source": "Lobsters",
-   "ok": false,
-   "error": "HTTPError: HTTP Error 500: Internal Server Error"
-  },
-  {
-   "category": "dev",
    "source": "Hacker News",
    "ok": true,
    "items": 2,
    "fresh": 2
+  },
+  {
+   "category": "dev",
+   "source": "Inside Java",
+   "ok": true,
+   "items": 10,
+   "fresh": 1
+  },
+  {
+   "category": "dev",
+   "source": "Spring Blog",
+   "ok": true,
+   "items": 4,
+   "fresh": 0
+  },
+  {
+   "category": "dev",
+   "source": "JetBrains Blog",
+   "ok": true,
+   "items": 12,
+   "fresh": 6
+  },
+  {
+   "category": "dev",
+   "source": "Stack Overflow Blog",
+   "ok": true,
+   "items": 25,
+   "fresh": 3
+  },
+  {
+   "category": "dev",
+   "source": "Cloudflare Blog",
+   "ok": true,
+   "items": 20,
+   "fresh": 0
+  },
+  {
+   "category": "dev",
+   "source": "AWS News Blog",
+   "ok": true,
+   "items": 20,
+   "fresh": 1
+  },
+  {
+   "category": "dev",
+   "source": "The New Stack",
+   "ok": true,
+   "items": 25,
+   "fresh": 8
   },
   {
    "category": "tech",
@@ -123,15 +201,50 @@
    "category": "tech",
    "source": "Hacker News",
    "ok": true,
-   "items": 13,
-   "fresh": 11
+   "items": 14,
+   "fresh": 12
+  },
+  {
+   "category": "tech",
+   "source": "Wired",
+   "ok": true,
+   "items": 25,
+   "fresh": 25
+  },
+  {
+   "category": "tech",
+   "source": "Engadget",
+   "ok": true,
+   "items": 20,
+   "fresh": 20
+  },
+  {
+   "category": "tech",
+   "source": "BBC Technology",
+   "ok": true,
+   "items": 21,
+   "fresh": 7
+  },
+  {
+   "category": "tech",
+   "source": "The Register",
+   "ok": true,
+   "items": 25,
+   "fresh": 19
   },
   {
    "category": "hype",
    "source": "Hacker News",
    "ok": true,
-   "items": 5,
-   "fresh": 4
+   "items": 6,
+   "fresh": 5
+  },
+  {
+   "category": "hype",
+   "source": "Show HN",
+   "ok": true,
+   "items": 1,
+   "fresh": 1
   },
   {
    "category": "hype",
@@ -156,12 +269,6 @@
   },
   {
    "category": "leadership",
-   "source": "Harvard Business Review",
-   "ok": false,
-   "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
-  },
-  {
-   "category": "leadership",
    "source": "LeadDev",
    "ok": true,
    "items": 10,
@@ -169,9 +276,31 @@
   },
   {
    "category": "leadership",
-   "source": "First Round Review",
-   "ok": false,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "source": "Lenny's Newsletter",
+   "ok": true,
+   "items": 20,
+   "fresh": 4
+  },
+  {
+   "category": "leadership",
+   "source": "Irrational Exuberance (Will Larson)",
+   "ok": true,
+   "items": 12,
+   "fresh": 2
+  },
+  {
+   "category": "leadership",
+   "source": "Rands in Repose",
+   "ok": true,
+   "items": 25,
+   "fresh": 3
+  },
+  {
+   "category": "leadership",
+   "source": "Refactoring (Luca Rossi)",
+   "ok": true,
+   "items": 20,
+   "fresh": 2
   },
   {
    "category": "psychology",
@@ -195,6 +324,20 @@
    "fresh": 25
   },
   {
+   "category": "psychology",
+   "source": "PsyPost",
+   "ok": true,
+   "items": 20,
+   "fresh": 20
+  },
+  {
+   "category": "psychology",
+   "source": "APS Psychological Science",
+   "ok": true,
+   "items": 10,
+   "fresh": 4
+  },
+  {
    "category": "investing",
    "source": "CNBC",
    "ok": true,
@@ -210,9 +353,10 @@
   },
   {
    "category": "investing",
-   "source": "Yahoo Finance",
-   "ok": false,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "source": "Seeking Alpha Market News",
+   "ok": true,
+   "items": 7,
+   "fresh": 7
   }
  ]
 }

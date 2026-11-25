@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated": "2026-11-25T13:38:04+01:00",
+ "generated": "2026-11-25T14:01:31+01:00",
  "model": "claude-haiku-5-5",
  "weekly": true,
  "top": [
@@ -24,96 +24,80 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Tidal to ban AI-generated music from December 9",
-     "summary": "Tidal will stop accepting fully AI-generated music on December 9 and will remove about 29 million such songs. It expects to reject roughly 80,000 to 85,000 tracks a day, and still allows tracks made with AI assistance.",
-     "why": "Streaming platforms are tightening content rules for AI output, which affects any team building generative audio, upload, or moderation pipelines.",
+     "headline": "Google releases Gemini 4 Neon, its first frontier model in a while",
+     "summary": "Google DeepMind has released Gemini 4 Neon, which reportedly beats rival models Astra and Fable on LiveBench. It also cut the runtime of one TypeScript-to-Rust benchmark by 48.6%.",
+     "why": "A new frontier model that beats rivals on coding-related benchmarks may shift which models teams evaluate and adopt.",
      "sources": [
       {
-       "title": "Tidal will start banning AI-generated music next month",
-       "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-       "source": "The Verge AI",
-       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0,0,100,100"
-      },
-      {
-       "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-       "source": "TechCrunch AI"
+       "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+       "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+       "source": "Latent Space",
+       "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png"
       }
      ]
     },
     {
-     "headline": "Anthropic shares slip below IPO price",
-     "summary": "Anthropic's stock has fallen under its IPO price since listing. Coverage says the slump could pressure valuations across AI startups.",
-     "why": "A weak debut for a leading AI lab may make investors more cautious about funding and valuing AI companies, which shapes hiring and runway for software teams.",
+     "headline": "Anthropic launches Claude Ship, an AI tool that reviews and approves pull requests",
+     "summary": "Anthropic has introduced Claude Ship in beta. It automatically reviews and corrects suggested code changes and can approve them against a team's guidelines.",
+     "why": "Automated review and approval of pull requests could change code review workflows and the controls engineering leaders need to set.",
      "sources": [
       {
-       "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-       "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-       "source": "TechCrunch AI"
+       "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+       "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/11/Claude-Ship.png"
       }
      ]
     },
     {
-     "headline": "Amazon reportedly buys Decart for $7.5 billion",
-     "summary": "Amazon is reported to be acquiring Decart for about $7.5 billion. The deal is part of a push to improve the efficiency of its Trainium chips and reduce its reliance on Nvidia hardware through software.",
-     "why": "Big cloud providers investing in custom-chip software signals a shift in the tooling and performance options available to teams training and serving models.",
+     "headline": "Anthropic's MCP SDK passes 700 million monthly downloads, adds agent features",
+     "summary": "Anthropic says its Model Context Protocol SDK now has over 700 million monthly downloads, two years after launch. New features include background tasks, follow-up questions to users, and file uploads for more autonomous agents.",
+     "why": "MCP is becoming a widely used integration standard, so its new agent features affect how teams connect tools to AI systems.",
      "sources": [
       {
-       "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
-       "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-       "source": "TechCrunch AI"
+       "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+       "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png"
       }
      ]
     },
     {
-     "headline": "Jensen Huang returns to Nvidia amid affair reports and scrutiny",
-     "summary": "Nvidia's Jensen Huang has returned as CEO after a leave tied to reports of affairs. At his first all-hands he apologised to staff and denied that the White House helped secure his return. Commentators question the board's exposure and Nvidia's role in US industry.",
-     "why": "Leadership turmoil at the dominant AI chip supplier could affect supply, roadmap stability, and the wider market for AI infrastructure.",
+     "headline": "Amazon says AI agents found and exploited a zero-day with little human input",
+     "summary": "Amazon reports that attackers' AI agents discovered and exploited a zero-day vulnerability with minimal human direction. It describes the Cairn AI framework as useful to both defenders and attackers.",
+     "why": "Autonomous exploit discovery shortens the window teams have to patch, which raises the stakes for security practices.",
      "sources": [
       {
-       "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-       "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-       "source": "TechCrunch AI"
-      },
-      {
-       "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-       "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-       "source": "TechCrunch AI"
-      },
-      {
-       "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-       "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-       "source": "TechCrunch AI"
-      },
-      {
-       "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-       "source": "The Verge AI",
-       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100"
+       "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+       "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+       "source": "Ars Technica AI",
+       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg"
       }
      ]
     },
     {
-     "headline": "UK cyber agency warns AI attacks exploit basic security gaps",
-     "summary": "The UK's National Cyber Security Centre says AI-driven hacking tools mainly exploit simple, long-standing security flaws. It argues that organisations need stronger foundations.",
-     "why": "Engineering leaders should treat basic hygiene such as patching and access control as the first defence against AI-assisted attacks.",
+     "headline": "Insiders say unreleased OpenAI and Anthropic models have outgrown safety measures",
+     "summary": "According to an Axios report, many employees at OpenAI and Anthropic believe their unreleased frontier models can no longer be safely controlled. Both companies are reportedly debating whether to halt releases or stop training.",
+     "why": "Concerns about controllability of upcoming models could affect release timing and the reliability of the AI platforms teams depend on.",
      "sources": [
       {
-       "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-       "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-       "source": "TechCrunch AI"
+       "title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
+       "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_anthropic.png"
       }
      ]
     },
     {
-     "headline": "New benchmark finds AI agents unreliable at everyday tasks",
-     "summary": "A new benchmark shows that leading AI models still struggle to complete everyday tasks reliably and safely, and can introduce new problems while doing them.",
-     "why": "It is a reminder that agent products need strong evaluation, guardrails, and error handling before they are trusted with real user workflows.",
+     "headline": "PrismML compresses a 54 GB language model to 5.9 GB using three-value weights",
+     "summary": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its heavily compressed model. Each weight is reduced to one of just three possible values, cutting the size from 54 GB to 5.9 GB.",
+     "why": "Much smaller models make it more practical to run capable language models on modest hardware and at lower cost.",
      "sources": [
       {
-       "title": "Even the best AI agents struggle with everyday life",
-       "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-       "source": "TechCrunch AI"
+       "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+       "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/07/prsim_ml_demo.png"
       }
      ]
     }
@@ -126,20 +110,52 @@
    "stories": [
     {
      "headline": "Active intrusion campaign targets Check Point security management servers",
-     "summary": "An ongoing intrusion campaign is reported to be targeting Check Point security management servers. The report drew significant discussion on Hacker News.",
-     "why": "Teams that run or depend on these management servers should check their exposure and monitor for compromise.",
+     "summary": "An active intrusion campaign is targeting Check Point security management servers, a topic that drew strong discussion on Hacker News. Operators of these servers should check their exposure and review their security posture.",
+     "why": "Security management servers control firewall policy across an organisation, so a compromise there can spread to many systems at once.",
      "sources": [
       {
        "title": "Active intrusion campaign against Check Point security management servers",
        "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-       "source": "Hacker News"
+       "source": "Hacker News",
+       "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png"
+      }
+     ]
+    },
+    {
+     "headline": "Fixes released for Java4Shell memory corruption bug in the HotSpot JVM",
+     "summary": "Oracle and the OpenJDK project released fixes on November 17 for CVE-2026-114938, a memory corruption flaw in the Base64 decoder of the HotSpot JVM. JetBrains has told users to update its IDEs, ReSharper, .NET tools, Toolbox and Gateway.",
+     "why": "Any Java service or developer tool running an unpatched JVM may be exposed, so teams should check their runtime versions now.",
+     "sources": [
+      {
+       "title": "Java4Shell Vulnerability: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now",
+       "url": "https://blog.jetbrains.com/security/2026/11/java4shell-vulnerability/",
+       "source": "JetBrains Blog",
+       "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/IDEs-social-BlogSocialShare-1280x720-1-1.png"
+      }
+     ]
+    },
+    {
+     "headline": "AWS Lambda doubles maximum timeout to 30 minutes",
+     "summary": "AWS has raised the maximum timeout for on-demand Lambda event functions from 15 to 30 minutes in all commercial regions. No opt-in is needed and there is no new pricing, and AWS notes the change also doubles concurrency at the same request rate.",
+     "why": "Longer timeouts can simplify workloads that once needed step functions or workarounds, but teams should recheck concurrency and cost assumptions.",
+     "sources": [
+      {
+       "title": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
+       "url": "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/en/headerimage/generatedHeaderImage-1795522224655.jpg"
+      },
+      {
+       "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+       "source": "AWS News Blog"
       }
      ]
     },
     {
      "headline": "Rust 1.100 stabilises the never type after a decade of work",
-     "summary": "Rust 1.100.0, released 12 November, stabilises the never type (!) and makes Infallible an alias for it. It also stabilises the core of the allocator API, adds DropGuard, and adds an opt-in dependency cooldown setting to Cargo.",
-     "why": "The dependency cooldown option gives teams a new way to limit how quickly they pick up fresh package versions.",
+     "summary": "Rust 1.100.0, released November 12, stabilises the never type (!) and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds DropGuard, and gives Cargo an opt-in setting for dependency cooldowns.",
+     "why": "The never type removes long-standing friction in error handling, and the Cargo cooldown option gives teams a new way to limit fresh dependency updates.",
      "sources": [
       {
        "title": "Rust 1.100 Ships the Never Type After Ten Years and Five Failed Attempts",
@@ -150,41 +166,15 @@
      ]
     },
     {
-     "headline": "AWS doubles Lambda maximum timeout to 30 minutes",
-     "summary": "AWS has raised the maximum timeout for on-demand Lambda event functions from 15 to 30 minutes in all commercial regions. No opt-in is required and there is no new pricing, and AWS lists the related effects on concurrency and SQS and Kafka settings.",
-     "why": "Longer timeouts let teams run longer jobs in Lambda, but AWS's notes on concurrency and event-source settings mean architectures should be reviewed.",
+     "headline": "Confluent scraps AI-driven Rust rewrite of Kafka's Java client",
+     "summary": "Confluent spent almost three months using AI coding agents to translate Apache Kafka's Java client into Rust. The engineers discarded the work and started over.",
+     "why": "It shows that agent-driven code translation of large, complex libraries can take far longer than expected and may need to be restarted.",
      "sources": [
       {
-       "title": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
-       "url": "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-       "source": "InfoQ",
-       "image": "https://res.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/en/headerimage/generatedHeaderImage-1795522224655.jpg"
-      }
-     ]
-    },
-    {
-     "headline": "OpenAI details Pando, a Git backend built for coding agents",
-     "summary": "OpenAI has described Pando, a backend that scales Git for many concurrent coding-agent workloads while keeping standard Git workflows. The company reports a nearly 80% reduction in median push latency.",
-     "why": "As agents push code in parallel, Git hosting infrastructure may need to scale in similar ways.",
-     "sources": [
-      {
-       "title": "OpenAI Scales Git for Coding Agents with Pando",
-       "url": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-       "source": "InfoQ",
-       "image": "https://res.infoq.com/news/2026/11/openai-git-pando/en/headerimage/openai-pando-header-1795331180238.jpeg"
-      }
-     ]
-    },
-    {
-     "headline": "CNCF research finds virtual machines still host most production workloads",
-     "summary": "New CNCF and Linux Foundation Research data shows VMs host an average of 53% of production applications. Demand for VMs is also rising from AI and agentic workloads that need stronger execution isolation.",
-     "why": "Platform teams planning AI infrastructure should expect VMs to remain a core part of production hosting.",
-     "sources": [
-      {
-       "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
-       "url": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-       "source": "InfoQ",
-       "image": "https://res.infoq.com/news/2026/11/cncf-vm-ai-workloads/en/headerimage/generatedHeaderImage-1794993904528.jpg"
+       "title": "Confluent spent 3 months rewriting Kafka’s Java client in Rust with AI — and had to start over",
+       "url": "https://thenewstack.io/confluent-kafka-rust-agents/",
+       "source": "The New Stack",
+       "image": "https://cdn.thenewstack.io/media/2026/11/028e7f98-getty-images-7ag-cmu7_fw-unsplash-1024x682.jpg"
       }
      ]
     }
@@ -196,9 +186,9 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Microsoft declares 'Code Red' after near-24-hour Outlook and Exchange outage",
-     "summary": "A nearly 24-hour Exchange Online and Outlook outage cut off email for millions of customers. Microsoft traced it to a bug that had sat on Microsoft 365 networking gateway servers, and it has declared an unusual internal 'Code Red'.",
-     "why": "Shows how a latent bug in shared networking infrastructure can take down a major service, and why recovery-time targets are now under scrutiny.",
+     "headline": "Microsoft declares internal 'Code Red' after nearly 24-hour Outlook outage",
+     "summary": "Microsoft has declared an unusual internal 'Code Red' after an Exchange Online and Outlook outage that lasted almost a day and disrupted email for millions of customers. Internal memos reportedly describe an overhaul and a goal of one-hour recovery.",
+     "why": "It shows how a single bug in shared networking infrastructure can take down a major service, and it sets a recovery-time benchmark other platform teams may be judged against.",
      "sources": [
       {
        "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
@@ -215,34 +205,58 @@
      ]
     },
     {
-     "headline": "Amazon says attackers' AI agents found and exploited a zero-day with little human input",
-     "summary": "Amazon reports that hackers used AI agents to discover and exploit a zero-day vulnerability with minimal human direction. The company describes the Cairn AI framework as useful to both attackers and defenders.",
-     "why": "Autonomous AI tooling is shortening the time from vulnerability discovery to exploitation, which changes how teams should prioritise patching.",
+     "headline": "US jury finds Huawei guilty of stealing trade secrets but acquits on racketeering",
+     "summary": "A federal jury in New York convicted Huawei of stealing US trade secrets, including source code and proprietary technology from several companies, and found it guilty of conspiracy. It acquitted the company on racketeering charges.",
+     "why": "The verdict concerns theft of source code and proprietary technology, which matters to engineering teams thinking about IP protection and supply-chain trust.",
      "sources": [
       {
-       "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-       "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-       "source": "Ars Technica",
-       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg"
+       "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+       "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+       "source": "BBC Technology",
+       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg"
+      },
+      {
+       "title": "Jury finds Huawei stole US tech, laundered money, and broke sanctions",
+       "url": "https://www.theregister.com/legal/2026/11/25/jury-finds-huawei-stole-us-tech-laundered-money-and-broke-sanctions/5312024",
+       "source": "The Register",
+       "image": "https://image.theregister.com/?imageId=5312029&width=800"
+      },
+      {
+       "title": "Huawei found guilty of stealing trade secrets",
+       "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+       "source": "The Verge",
+       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302952808.jpg?quality=90&strip=all&crop=0,0,100,100"
+      },
+      {
+       "title": "Huawei is guilty of conspiracy to steal trade secrets, US jury rules",
+       "url": "https://www.engadget.com/2327450/huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-rules/",
+       "source": "Engadget",
+       "image": "https://www.engadget.com/img/gallery/huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-rules/l-intro-1795559783.jpg"
       }
      ]
     },
     {
-     "headline": "Dozens of oil and chemical shipping vessels hit by cyberattacks, Iran suspected",
-     "summary": "A report says dozens of oil and chemical tankers have been hacked in recent weeks. Iran is named as the main suspect behind the campaign.",
-     "why": "Operational technology on ships is a growing target, and the attacks highlight risks for any industrial system with weak remote access controls.",
+     "headline": "Trump says pardoning Jensen Huang is 'an option' amid Nvidia probe",
+     "summary": "Reports say Donald Trump considers a pardon for Nvidia CEO Jensen Huang an option. The US attorney general avoided questions about an investigation into Nvidia, and Nvidia's share price fell 7% as lawmakers demanded answers about Trump's role in Huang's reinstatement.",
+     "why": "Scrutiny of Nvidia, which dominates AI chip supply, could affect hardware availability, pricing and the regulatory climate for AI infrastructure.",
      "sources": [
       {
-       "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
-       "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
+       "title": "US attorney general dodges questions about Nvidia investigation",
+       "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+       "source": "BBC Technology",
+       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/067a/live/dc6baca0-e839-11f1-a094-5fdc692f3e33.png"
+      },
+      {
+       "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+       "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
        "source": "TechCrunch"
       }
      ]
     },
     {
-     "headline": "US financial crimes bureau FinCEN investigating unauthorised access to its systems",
-     "summary": "FinCEN, part of the Treasury Department, disclosed a cybersecurity incident that gave unauthorised access to a limited subset of its systems. It has not yet shared further details.",
-     "why": "A government agency confirming intrusion into its systems is a reminder that access controls and audit logging matter for any sensitive data store.",
+     "headline": "US financial crimes bureau FinCEN investigates unauthorized access to systems",
+     "summary": "The Financial Crimes Enforcement Network, part of the Treasury Department, disclosed a 'cybersecurity incident' that gave unauthorized access to a limited subset of its systems. It has not released further details.",
+     "why": "Government breaches involving financial intelligence systems highlight the need for strict access controls and monitoring in internal tools and data platforms.",
      "sources": [
       {
        "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
@@ -253,15 +267,15 @@
      ]
     },
     {
-     "headline": "Huawei found guilty of stealing US trade secrets",
-     "summary": "A federal jury in New York has convicted Huawei of stealing trade secrets from US companies. The case alleged theft of source code and proprietary technology from several firms.",
-     "why": "The verdict brings a long-running trade secrets case to a close and may affect how companies handle source code and vendor relationships with Chinese firms.",
+     "headline": "Dozens of oil and chemical shipping tankers hacked in recent weeks",
+     "summary": "A report says dozens of oil and chemical shipping vessels have been hit by cyberattacks in recent weeks. Iran is named as the main suspect.",
+     "why": "Attacks on operational technology at sea show how exposed industrial control and maritime systems are, a reminder for teams securing connected operational systems.",
      "sources": [
       {
-       "title": "Huawei found guilty of stealing trade secrets",
-       "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-       "source": "The Verge",
-       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302952808.jpg?quality=90&strip=all&crop=0,0,100,100"
+       "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
+       "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
+       "source": "TechCrunch",
+       "image": "https://techcrunch.com/wp-content/uploads/2026/11/oil-tanker-1244308661.jpg?resize=1200,800"
       }
      ]
     }
@@ -273,22 +287,9 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Claude-BugHunter, a Claude Code skill bundle for bug hunting, trends on GitHub",
-     "summary": "The Python repo, which packages 84 skills and 15 slash commands for vulnerability research and external red-team work, gained about 1,800 stars in a day. It is a community project, and its claimed coverage of disclosed-report patterns has not been independently verified.",
-     "why": "Security-focused agent skills are spreading fast, so teams should weigh how they use AI tools for offensive testing and what that means for their review process.",
-     "sources": [
-      {
-       "title": "elementalsouls/Claude-BugHunter: A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerabilit",
-       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-       "source": "GitHub Trending",
-       "image": "https://opengraph.githubassets.com/2026-11-25/elementalsouls/Claude-BugHunter"
-      }
-     ]
-    },
-    {
-     "headline": "CLI-Anything aims to make all software usable by AI agents through a CLI hub",
-     "summary": "The Python project, titled 'Making ALL Software Agent-Native', added about 1,070 stars today and has over 65,000 in total. It pitches a shared command-line hub so agents can drive existing tools, which is a broad ambition still to be proven.",
-     "why": "If agents can reliably operate ordinary CLIs, the interfaces teams build and maintain will matter more for automation than they do now.",
+     "headline": "CLI-Anything pitches agent-native command lines for any software",
+     "summary": "The CLI-Anything project, which describes itself as making all software agent-native and links to a CLI-Hub, gained about 1,070 GitHub stars in a day and has around 65,000 in total. The project is early and its claims are not yet proven.",
+     "why": "If AI agents can reliably drive existing tools through CLIs, teams may need to rethink how they expose internal software to automation.",
      "sources": [
       {
        "title": "HKUDS/CLI-Anything: \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
@@ -299,9 +300,9 @@
      ]
     },
     {
-     "headline": "Superpowers, an agentic skills framework for software development, keeps climbing",
-     "summary": "The Shell project, which describes itself as a methodology for software development with agents, gained about 1,000 stars today and now has more than 326,000. Its popularity signals strong interest, though it is a community framework rather than a proven standard.",
-     "why": "Shared methodologies for agents shape how teams structure coding workflows, so leaders may want to evaluate them before ad hoc prompting spreads.",
+     "headline": "Superpowers agentic skills framework keeps climbing GitHub Trending",
+     "summary": "obra/superpowers, a framework of agentic skills and a software development methodology, added about 1,000 stars today and has over 326,000 in total. Its popularity signals strong interest in structured workflows for coding agents.",
+     "why": "Teams adopting coding agents are looking for repeatable methods, and this framework shows how much developers want shared conventions for them.",
      "sources": [
       {
        "title": "obra/superpowers: An agentic skills framework & software development methodology that works.",
@@ -312,9 +313,22 @@
      ]
     },
     {
-     "headline": "Firecrawl pitches a single API for agent search, scraping and data access",
-     "summary": "The TypeScript project offers search, scraping and access to more than 550 data providers through one API for agents. It gained about 990 stars today, reaching roughly 209,000 in total.",
-     "why": "Data access for agents is becoming a build-or-buy decision, and a unified API could reduce the custom scraping and integration work teams maintain.",
+     "headline": "Claude-BugHunter skill bundle draws a large daily star spike",
+     "summary": "A Claude Code skill bundle for bug hunting and external red-team work, with 84 skills and 15 slash commands, gained about 1,800 stars today. Its value for real security work has not been independently shown.",
+     "why": "Security leads should weigh how easily agent-driven offensive tooling spreads, and how it fits their disclosure and authorisation policies.",
+     "sources": [
+      {
+       "title": "elementalsouls/Claude-BugHunter: A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerabilit",
+       "url": "https://github.com/elementalsouls/Claude-BugHunter",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-25/elementalsouls/Claude-BugHunter"
+      }
+     ]
+    },
+    {
+     "headline": "Firecrawl pitches one API for search, scraping and 550+ data sources",
+     "summary": "Firecrawl, which calls itself knowledge infrastructure for agents, added about 990 stars today and has over 209,000 in total. It offers search, scraping and access to more than 550 data providers through a single API.",
+     "why": "Agent builders are consolidating data access behind single APIs, which can cut integration work but adds a dependency to manage.",
      "sources": [
       {
        "title": "firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
@@ -325,15 +339,15 @@
      ]
     },
     {
-     "headline": "Cursor publishes a plugin specification and official plugins on GitHub",
-     "summary": "Cursor has released a plugin specification and a set of official plugins in a public repository, which is trending with about 360 stars today. The release defines how third parties can extend the editor, though adoption is still early.",
-     "why": "A public plugin spec from a major AI coding editor could set a pattern for extending developer tools, which matters to teams that customise their IDE workflows.",
+     "headline": "minimind shows a 64M-parameter LLM can be trained from scratch in two hours",
+     "summary": "The minimind project, which describes training a 64M-parameter language model from scratch in about two hours, gained around 730 stars today and has over 70,000 in total. It is a small educational-style model, not a competitive system.",
+     "why": "It makes the basics of model training far more approachable for engineers who want to understand LLM internals.",
      "sources": [
       {
-       "title": "cursor/plugins: Cursor plugin specification and official plugins",
-       "url": "https://github.com/cursor/plugins",
+       "title": "jingyaogong/minimind: 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+       "url": "https://github.com/jingyaogong/minimind",
        "source": "GitHub Trending",
-       "image": "https://opengraph.githubassets.com/2026-11-25/cursor/plugins"
+       "image": "https://opengraph.githubassets.com/2026-11-25/jingyaogong/minimind"
       }
      ]
     }
@@ -345,9 +359,9 @@
    "cadence": "weekly",
    "stories": [
     {
-     "headline": "JetBrains CEO gives manual code review two years",
-     "summary": "JetBrains' CEO predicts that manual code review may be ending within about two years. LeadDev raised the question in a feature on the future of code review.",
-     "why": "If AI tools take over review work, teams will need new norms for quality checks and accountability for shipped code.",
+     "headline": "JetBrains CEO predicts manual code review could end within two years",
+     "summary": "The JetBrains CEO gives manual code review two years before it becomes obsolete, a claim that puts AI tooling at the centre of how teams review changes.",
+     "why": "If review shifts to AI, engineering leaders will need to rethink review policies, accountability and how junior engineers learn.",
      "sources": [
       {
        "title": "The end of manual code review?",
@@ -358,9 +372,9 @@
      ]
     },
     {
-     "headline": "Less experienced developers trust AI more, eroding code ownership",
-     "summary": "A LeadDev article reports that less experienced developers tend to trust AI-generated code more, which it says is weakening code ownership.",
-     "why": "Leaders need to make sure engineers still understand and take responsibility for code that AI helped write.",
+     "headline": "Less experienced developers trust AI output more, a LeadDev piece says",
+     "summary": "A LeadDev article reports that less experienced developers place more trust in AI tools, and argues that code ownership is weakening as a result.",
+     "why": "Leaders who set code ownership norms and mentoring plans need to account for how juniors weigh AI suggestions.",
      "sources": [
       {
        "title": "Code ownership is eroding",
@@ -371,15 +385,28 @@
      ]
     },
     {
-     "headline": "Capital One treats multi-agent AI as a platform problem",
-     "summary": "A LeadDev feature looks at how Capital One runs its multi-agent AI system, framing the work as a platform challenge rather than a set of separate tools.",
-     "why": "It shows how a large bank organises shared infrastructure for AI agents, a question many engineering leaders now face.",
+     "headline": "Capital One describes its multi-agent AI system as a platform problem",
+     "summary": "LeadDev reports on how Capital One built its multi-agent AI system, framing the challenge as one of platform engineering rather than individual tools.",
+     "why": "It shows how a large bank treats agent coordination as shared infrastructure, a model that engineering leaders can compare against their own setups.",
      "sources": [
       {
        "title": "Inside Capital One’s multi-agent system",
        "url": "https://leaddev.com/ai/inside-capital-ones-multi-agent-system?utm_source=leaddev&utm_medium=RSS",
        "source": "LeadDev",
        "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/08/brain-puzzle-2.png"
+      }
+     ]
+    },
+    {
+     "headline": "Will Larson's team-scale push reaches 170 merged PRs in one seven-day window",
+     "summary": "Will Larson reports shipping over 100 pull requests to production in a week, with 115 in the week of November 9 and a peak of 170 merged PRs over a seven-day period.",
+     "why": "A concrete throughput record gives leaders a real-world data point for judging delivery pace, though it is a single person's account.",
+     "sources": [
+      {
+       "title": "Shipping 100+ PRs to production in a week",
+       "url": "https://lethain.com/passing-100-prs-in-a-week/",
+       "source": "Irrational Exuberance (Will Larson)",
+       "image": "https://lethain.com/static/blog/2027/prs-per-week-2026.png"
       }
      ]
     }
@@ -391,50 +418,54 @@
    "cadence": "weekly",
    "stories": [
     {
-     "headline": "Cannabis users develop psychosis years earlier, with the gap widening with age",
-     "summary": "An analysis of 149 studies found cannabis users developed psychosis about 2.5 years earlier than non-users on average. The gap grew to over six years among adults aged 30 and older.",
-     "why": "Teams building health or wellbeing products should note that cannabis-related psychiatric risk may build up over time, not just appear early on.",
+     "headline": "Non-surgical brain scans and AI can reconstruct typed sentences",
+     "summary": "A Nature Neuroscience study reports that magnetic brain scans combined with AI can reconstruct typed sentences from outside the skull. Current brain implants that do this require risky neurosurgery.",
+     "why": "Non-invasive brain-to-text decoding could widen the range of interfaces and accessibility tools that engineers can build.",
+     "sources": [
+      {
+       "title": "Scientists at Meta decode typed sentences from brain activity without surgically implanted chips",
+       "url": "https://www.psypost.org/scientists-at-meta-decode-typed-sentences-from-brain-activity-without-surgically-implanted-chips/",
+       "source": "PsyPost",
+       "image": "https://www.psypost.org/wp-content/uploads/2026/07/brainimg5.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Cannabis users develop psychosis about 2.5 years earlier, with the gap widening",
+     "summary": "A meta-analysis of 149 studies found cannabis users develop psychosis an average of 2.5 years earlier than non-users. The gap grows to more than six years among adults aged 30 and older, and researchers warn the risks may build up over time.",
+     "why": "It adds evidence on long-term psychiatric risk, relevant to teams that handle wellbeing, health or safety features.",
      "sources": [
       {
        "title": "Cannabis users develop psychosis years earlier, and the gap grows with age",
        "url": "https://www.sciencedaily.com/releases/2026/11/261123005346.htm",
-       "source": "ScienceDaily: Mind & Brain"
+       "source": "ScienceDaily: Mind & Brain",
+       "image": "https://www.sciencedaily.com/images/1920/cannabis-mental-health-marijuana-psychiatry-anxiety.webp"
       }
      ]
     },
     {
-     "headline": "Researchers identify a 'circadian depression' subtype linked to the body clock",
-     "summary": "Researchers describe a depression subtype tied to the body's internal clock, linked to night-owl habits, excessive sleep and persistent exhaustion. It may affect nearly one in four people with severe, recurrent or persistent depression, and common antidepressants often struggle to treat it.",
-     "why": "Sleep timing may become a useful marker for matching people with treatments, which matters for anyone building mental health tools.",
+     "headline": "Heavy smartphone use predicts a rebound in attention problems in late teens",
+     "summary": "A study tracking thousands of teenagers found attention symptoms tend to fall in early adolescence and then rise again as adulthood nears. Struggling to control smartphone use reliably predicted worse behavioural problems later.",
+     "why": "It gives product teams evidence on how self-control issues with phones relate to attention in young users.",
      "sources": [
       {
-       "title": "Scientists discover a new type of depression that common antidepressants struggle to treat",
-       "url": "https://www.sciencedaily.com/releases/2026/11/261123005352.htm",
-       "source": "ScienceDaily: Mind & Brain"
+       "title": "Problematic smartphone use predicts a rebound in attention issues during late adolescence",
+       "url": "https://www.psypost.org/problematic-smartphone-use-predicts-a-rebound-in-attention-issues-during-late-ad/",
+       "source": "PsyPost",
+       "image": "https://www.psypost.org/wp-content/uploads/2025/05/teen-girl-using-smartphone.jpg"
       }
      ]
     },
     {
-     "headline": "AI may not process information the way the human brain does",
-     "summary": "Researchers report that AI models which closely predict brain activity may still rely on internal processes the brain does not use. The finding challenges how scientists read the link between artificial and biological intelligence.",
-     "why": "Engineers who lean on brain analogies to explain or design AI systems may be relying on comparisons that do not hold.",
+     "headline": "Childhood emotional abuse linked to adult mental illness more than physical abuse",
+     "summary": "A Psychological Bulletin analysis of 104 studies found childhood emotional abuse is more strongly tied to adult mental illness than physical or sexual abuse. The authors argue it is often wrongly dismissed as less harmful because it leaves no visible marks.",
+     "why": "It is a reminder that harm without visible signs still has lasting effects, which matters when designing support and moderation systems.",
      "sources": [
       {
-       "title": "AI may not work like the human brain after all, scientists discover",
-       "url": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm",
-       "source": "ScienceDaily: Mind & Brain"
-      }
-     ]
-    },
-    {
-     "headline": "AI analysis of children's brain scans finds three brain types behind ADHD and anxiety",
-     "summary": "An AI-driven analysis of thousands of children's brain scans identified three biological patterns that cut across traditional ADHD and anxiety diagnoses. The patterns can appear before a diagnosis is made, which could allow earlier and more personalised care.",
-     "why": "It shows how machine learning on large imaging datasets is being used to reframe clinical categories, a pattern relevant to health-tech builders.",
-     "sources": [
-      {
-       "title": "Stanford scientists discover 3 hidden brain types behind ADHD and anxiety",
-       "url": "https://www.sciencedaily.com/releases/2026/11/261124055713.htm",
-       "source": "ScienceDaily: Mind & Brain"
+       "title": "Childhood emotional abuse linked to adult mental health struggles more strongly than physical or sexual abuse",
+       "url": "https://www.psypost.org/childhood-emotional-abuse-linked-to-adult-mental-health-struggles-more-strongly-than-physical-or-sexual-abuse/",
+       "source": "PsyPost",
+       "image": "https://www.psypost.org/wp-content/uploads/2024/08/sad-girl.jpg"
       }
      ]
     }
@@ -446,56 +477,59 @@
    "cadence": "weekly",
    "stories": [
     {
-     "headline": "Dell's AI server demand more than doubles sales; $25B buyback authorised",
-     "summary": "Dell reported third-quarter overall sales that more than doubled year on year, driven by AI server demand, and authorised a $25 billion share buyback. Its stock rose after the results.",
-     "why": "Sustained AI server demand signals continued heavy infrastructure spending that engineering teams will feel in hardware availability and cloud pricing.",
+     "headline": "Dell beats earnings on AI server demand and authorizes a $25 billion buyback",
+     "summary": "Dell reported third-quarter sales that more than doubled year on year, driven by AI server demand. The company also approved a $25 billion share buyback, and its shares rose.",
+     "why": "Strong AI server demand at a major hardware vendor signals continued heavy infrastructure spending by the companies that build and run AI workloads.",
      "sources": [
+      {
+       "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+       "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+       "source": "CNBC"
+      },
       {
        "title": "Dell’s stock rises as the AI boom helps sales more than double",
        "url": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
        "source": "MarketWatch",
        "image": "https://images.mktw.net/im-86616784"
-      },
-      {
-       "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
-       "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
-       "source": "CNBC"
       }
      ]
     },
     {
      "headline": "Sanofi agrees to buy Insmed in pharma's biggest deal in three years",
-     "summary": "Sanofi has agreed to acquire drugmaker Insmed, and Insmed's shares rose 14% on the news. Sanofi faces falling revenue later this decade as its top-selling drugs lose exclusivity.",
-     "why": "Patent expiries pushing pharma toward large acquisitions can reshape which research and data platforms life-sciences firms invest in.",
+     "summary": "Sanofi has agreed to acquire drugmaker Insmed, a deal described as the largest pharma acquisition in three years. Insmed shares rose about 14% on the news, while Sanofi faces falling revenue as key drugs lose exclusivity.",
+     "why": "Large pharma acquisitions drive demand for the data, regulatory and clinical software that companies in the sector rely on.",
      "sources": [
       {
        "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
        "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
-       "source": "CNBC"
+       "source": "CNBC",
+       "image": "https://image.cnbcfm.com/api/v1/image/107299519-1694544344393-gettyimages-1676556085-dsc03159_evecyedm.jpeg?v=1697746273&w=1920&h=1080"
       }
      ]
     },
     {
-     "headline": "Xiamen Airlines to buy 50 Boeing 737-8 jets in a deal worth about $7.4B",
-     "summary": "China's Xiamen Airlines has agreed to purchase 50 Boeing 737-8 aircraft, with a combined catalogue price of around $7.4 billion.",
-     "why": "Large aircraft orders keep aerospace manufacturing and its supplier software and systems ecosystem busy for years.",
+     "headline": "Xiamen Airlines to buy 50 Boeing 737-8 jets in deal worth about $7.4 billion",
+     "summary": "China's Xiamen Airlines has agreed to purchase 50 Boeing 737-8 aircraft. The order has a combined catalog price of around $7.4 billion.",
+     "why": "Large aircraft orders reflect airline capacity plans and the wider state of aerospace supply chains that depend on software and engineering services.",
      "sources": [
       {
        "title": "China’s Xiamen Airlines to buy 50 Boeing jets in $7.4 billion deal",
        "url": "https://www.cnbc.com/2026/11/25/china-xiamen-boeing-deal.html",
-       "source": "CNBC"
+       "source": "CNBC",
+       "image": "https://image.cnbcfm.com/api/v1/image/108559003-1795575959155-gettyimages-2211329606-BOEING_CHINA.jpeg?v=1795575970&w=1920&h=1080"
       }
      ]
     },
     {
-     "headline": "Meta's Muse AI agent carries no ads but lifts its ad business via Instagram",
-     "summary": "Meta says its Muse personal AI agent does not show ads, yet the tool is already boosting the company's advertising business, according to a senior executive speaking to CNBC.",
-     "why": "It shows how AI assistants can drive revenue for existing products, a pattern product teams weigh when planning monetisation.",
+     "headline": "Budget carrier Norse Atlantic shares fall 77% after warning of critical finances",
+     "summary": "Norse Atlantic, a Norwegian low-cost airline, said its financial position is critical as fuel costs soar. Its survival depends on securing financing for short-term liquidity needs, and its shares dropped 77%.",
+     "why": "Rising fuel costs and funding strain at airlines can lead to cost cuts in travel and IT budgets, which affects vendors selling into the sector.",
      "sources": [
       {
-       "title": "How Meta is using Instagram to get an ad boost from its Muse personal AI agent",
-       "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
-       "source": "CNBC"
+       "title": "Budget carrier Norse Atlantic falls 77% after warning its finances are ‘critical’ amid soaring fuel costs",
+       "url": "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html",
+       "source": "CNBC",
+       "image": "https://image.cnbcfm.com/api/v1/image/108559108-1795599474326-gettyimages-2151560857-lax_aircraft_ka_053.jpeg?v=1795599522&w=1920&h=1080"
       }
      ]
     }
