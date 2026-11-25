@@ -1,8 +1,8 @@
 {
  "date": "2026-11-25",
- "generated": "2026-11-25T12:50:06+01:00",
+ "generated": "2026-11-25T12:57:05+01:00",
  "model": "claude-haiku-5-5",
- "weekly": true,
+ "weekly": false,
  "top": [
   {
    "section": "ai",
@@ -24,60 +24,15 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Nvidia's Jensen Huang returns as CEO after an affair-related exit",
-     "summary": "Huang apologised to staff at his first all-hands since returning as Nvidia's CEO and said he was grateful for a second chance. He also denied reports that the White House helped get him rehired, after the company's earlier investigation into his personal conduct drew scrutiny.",
-     "why": "Leadership changes at the largest AI chip supplier can affect supply, partner confidence, and the company's strategic direction.",
-     "sources": [
-      {
-       "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-       "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-       "source": "TechCrunch AI"
-      },
-      {
-       "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
-       "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
-       "source": "The Verge AI"
-      },
-      {
-       "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-       "source": "The Verge AI"
-      }
-     ]
-    },
-    {
-     "headline": "Anthropic shares fall below IPO price",
-     "summary": "Anthropic's stock has dropped under its IPO price since listing. Reporting says the slump could put pressure on valuations across AI startups.",
-     "why": "A weak debut for a leading AI lab may make investors more cautious about funding and valuing AI companies.",
-     "sources": [
-      {
-       "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-       "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-       "source": "TechCrunch AI"
-      }
-     ]
-    },
-    {
-     "headline": "Amazon to acquire Decart for a reported $7.5 billion",
-     "summary": "Amazon is reportedly buying Decart for $7.5 billion. The deal is aimed at improving the efficiency of its Trainium chips and narrowing the gap with Nvidia through software.",
-     "why": "It shows how cloud providers are investing in software to make their own AI chips more competitive with Nvidia.",
-     "sources": [
-      {
-       "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
-       "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-       "source": "TechCrunch AI"
-      }
-     ]
-    },
-    {
-     "headline": "Tidal to ban fully AI-generated music from December 9",
-     "summary": "Tidal will ban fully AI-generated music on December 9 and remove about 29 million such songs. It expects to reject roughly 80,000 to 85,000 tracks a day, and AI-assisted songs will still be accepted.",
-     "why": "Streaming platforms are setting content rules for AI output, which affects how music and media products handle provenance and filtering.",
+     "headline": "Tidal to ban AI-generated music from December 9",
+     "summary": "Tidal will stop accepting fully AI-generated music on December 9 and will delete about 29 million such songs. It expects to reject roughly 80,000 to 85,000 tracks a day. Songs made with AI assistance remain allowed.",
+     "why": "Streaming platforms are setting content-provenance rules, which could affect how builders label and filter AI-generated media.",
      "sources": [
       {
        "title": "Tidal will start banning AI-generated music next month",
        "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-       "source": "The Verge AI"
+       "source": "The Verge AI",
+       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0,0,100,100"
       },
       {
        "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
@@ -87,9 +42,21 @@
      ]
     },
     {
-     "headline": "UK cyber agency warns AI attacks expose weak basic security",
-     "summary": "The UK's cyber agency says AI-driven attacks are exploiting simple security flaws. It argues that organisations need strong foundations more than ever.",
-     "why": "Teams building software should prioritise basic hygiene, such as patching and secure configuration, since AI tools make known weaknesses easier to exploit.",
+     "headline": "Amazon to acquire Decart for a reported $7.5 billion",
+     "summary": "Amazon is reportedly buying Decart for $7.5 billion. The deal is part of its effort to make its Trainium chips more efficient through software, narrowing the gap with Nvidia.",
+     "why": "Hardware-software co-optimization on custom AI chips is becoming a major lever for cloud cost and performance.",
+     "sources": [
+      {
+       "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+       "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+       "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "UK agency warns AI hacking tools exploit basic security flaws",
+     "summary": "Britain's cyber agency says AI-driven attacks are exposing years of weak security practices. It stresses that strong basic foundations matter more than ever, because AI tools mostly rely on simple flaws.",
+     "why": "Teams may need to prioritise fundamentals like patching and access control, since AI makes exploiting them faster.",
      "sources": [
       {
        "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
@@ -99,14 +66,38 @@
      ]
     },
     {
-     "headline": "Meta puts its Muse AI assistant directly into Instagram DMs",
-     "summary": "Users can now use Meta's Muse AI assistant inside Instagram direct messages. They no longer need to switch to the separate Muse app.",
-     "why": "Embedding AI agents in existing messaging products shows how large platforms are distributing assistants to users.",
+     "headline": "Models can communicate through inference servers despite sandboxing",
+     "summary": "A Hacker News post reports research showing that AI models can still communicate through inference servers even when they are sandboxed. The discussion drew over 100 comments.",
+     "why": "If sandboxes do not isolate model traffic, agent deployments may need tighter controls on inference endpoints.",
      "sources": [
       {
-       "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-       "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+       "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+       "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+       "source": "Hacker News"
+      }
+     ]
+    },
+    {
+     "headline": "Anthropic shares slip below IPO price",
+     "summary": "Anthropic's shares have fallen below their IPO price since listing. Analysts say the slump could pressure valuations across AI startups.",
+     "why": "A weak post-IPO trading record may affect funding conditions and vendor confidence for teams that rely on AI platforms.",
+     "sources": [
+      {
+       "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+       "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
        "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "GPT-6.2 Astra helps identify creator of 1808 sketchbook",
+     "summary": "A history professor used GPT-6.2 Astra on historical research with minimal prompting. The model autonomously identified the creator of an anonymous 1808 sketchbook held at Yale's Beinecke Library.",
+     "why": "It is a concrete example of an agentic model completing a multi-step research task with little guidance.",
+     "sources": [
+      {
+       "title": "GPT 6.2 Astra Solves a Historical Mystery",
+       "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+       "source": "Simon Willison"
       }
      ]
     }
@@ -119,49 +110,66 @@
    "stories": [
     {
      "headline": "Rust 1.100 stabilises the never type after a decade of work",
-     "summary": "Rust 1.100.0, released 12 November 2026, stabilises the never type (!) and makes Infallible an alias for it. It also stabilises the core of the allocator API, adds DropGuard, and adds an opt-in dependency cooldown setting for Cargo.",
-     "why": "Language-level changes and the new Cargo cooldown option affect how teams write, pin and update Rust code.",
+     "summary": "Rust 1.100.0, released 12 November 2026, stabilises the never type (!) and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds DropGuard, and adds an opt-in dependency cooldown setting to Cargo.",
+     "why": "Stabilising the never type and allocator core changes what library authors can rely on, and the Cargo cooldown option gives teams a new way to limit fresh dependency churn.",
      "sources": [
       {
        "title": "Rust 1.100 Ships the Never Type After Ten Years and Five Failed Attempts",
        "url": "https://www.infoq.com/news/2026/11/rust-1-100-never-types/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-       "source": "InfoQ"
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/rust-1-100-never-types/en/headerimage/generatedHeaderImage-1795523502483.jpg"
       }
      ]
     },
     {
-     "headline": "AWS doubles Lambda's maximum timeout to 30 minutes",
-     "summary": "AWS raised the maximum timeout for on-demand Lambda event functions from 15 to 30 minutes in all commercial regions. No opt-in is needed and pricing is unchanged, and the previous limit dated from 2018.",
-     "why": "Longer runs change concurrency, queue visibility and event-source settings, so teams should review their Lambda architectures.",
+     "headline": "AWS Lambda doubles maximum timeout to 30 minutes",
+     "summary": "AWS has raised the maximum timeout for on-demand Lambda event functions from 15 to 30 minutes in all commercial regions. No opt-in is needed and there is no new pricing. AWS notes the change doubles concurrency at the same request rate and affects SQS visibility timeouts and Kafka mappings.",
+     "why": "Longer runs remove a common reason to move work to containers, but the higher concurrency and queue timeouts can change cost and capacity planning.",
      "sources": [
       {
        "title": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
        "url": "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-       "source": "InfoQ"
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/en/headerimage/generatedHeaderImage-1795522224655.jpg"
       }
      ]
     },
     {
-     "headline": "OpenAI details Pando, a Git backend built for coding-agent workloads",
-     "summary": "OpenAI described Pando, a backend that scales Git for many concurrent coding agents while keeping standard Git workflows. It reports nearly 80% lower median push latency by updating branches independently and reusing stored packfiles across fetches.",
-     "why": "It shows how source hosting may need to change as autonomous agents push code in parallel.",
+     "headline": "OpenAI details Pando, a Git backend for concurrent coding agents",
+     "summary": "OpenAI has described Pando, a backend that scales Git for many coding agents working at once while keeping standard Git workflows. The company reports nearly 80% lower median push latency by updating branches independently and reusing stored packfiles across fetches.",
+     "why": "As agents push code in parallel, Git hosting may become a bottleneck, and Pando shows one approach that keeps existing tooling intact.",
      "sources": [
       {
        "title": "OpenAI Scales Git for Coding Agents with Pando",
        "url": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-       "source": "InfoQ"
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/openai-git-pando/en/headerimage/openai-pando-header-1795331180238.jpeg"
       }
      ]
     },
     {
-     "headline": "CNCF research: VMs still host most production workloads amid AI growth",
-     "summary": "Research from the CNCF and Linux Foundation finds virtual machines host an average of 53% of production applications. Emerging AI and agentic workloads are adding demand for virtualisation where stronger execution isolation is needed.",
-     "why": "Platform teams planning AI infrastructure should weigh VM isolation alongside containers and Kubernetes.",
+     "headline": "CNCF research finds virtual machines still host most production apps",
+     "summary": "New research from the CNCF and Linux Foundation Research finds VMs host an average of 53% of production applications. Demand for virtualisation is also rising from AI and agentic workloads that need stronger execution isolation.",
+     "why": "Teams planning AI platforms should expect VMs to remain central, especially where strong isolation between workloads is required.",
      "sources": [
       {
        "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
        "url": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-       "source": "InfoQ"
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/cncf-vm-ai-workloads/en/headerimage/generatedHeaderImage-1794993904528.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "OpenAI says agents suit open-ended data platform operations",
+     "summary": "At QCon San Francisco 2026, OpenAI's data infrastructure engineering manager argued that AI agents are most useful for open-ended operational work rather than rebuilding data platforms. He pointed to automating Spark upgrades with Codex agents as an example.",
+     "why": "It offers a concrete view of where coding agents deliver value in maintaining large data systems, such as routine upgrades that are hard to script.",
+     "sources": [
+      {
+       "title": "QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI",
+       "url": "https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/openai-spark-fleet/en/headerimage/generatedHeaderImage-1795548261270.jpg"
       }
      ]
     }
@@ -173,67 +181,73 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Microsoft declares internal 'Code Red' after near-24-hour Outlook and Exchange outage",
-     "summary": "Microsoft declared an unusual internal 'Code Red' after an Exchange Online and Outlook outage that lasted nearly 24 hours and disrupted email for millions of customers. The outage was traced to a bug that had been sitting on Microsoft 365 networking gateway servers.",
-     "why": "It shows how a latent bug in shared networking infrastructure can cause a large, long outage, and it prompts reviews of cloud recovery planning.",
+     "headline": "Microsoft declares 'Code Red' after nearly 24-hour Outlook and Exchange outage",
+     "summary": "An Exchange Online and Outlook outage cut off email for millions of customers for nearly 24 hours. Microsoft declared an internal 'Code Red' after a bug on Microsoft 365 networking gateway servers triggered it, and internal memos describe an overhaul with one-hour recovery goals.",
+     "why": "It shows how a single networking fault can take down a major cloud service, and it points to recovery-time targets teams may want to benchmark against.",
      "sources": [
       {
        "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
        "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
-       "source": "The Verge"
+       "source": "The Verge",
+       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_C.jpg?quality=90&strip=all&crop=0,0,100,100"
       },
       {
        "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
        "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
-       "source": "Ars Technica"
+       "source": "Ars Technica",
+       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Microsoft_CDOC_featured-1152x648.jpg"
       }
      ]
     },
     {
-     "headline": "Amazon says AI agents used by hackers found and exploited a zero-day with little human input",
-     "summary": "Amazon reported that attackers used AI agents, built on a framework called Cairn, to find and exploit a zero-day vulnerability with minimal human involvement. The report says the same tooling is helping defenders as well.",
-     "why": "Autonomous AI tooling is shortening the time from discovery to exploitation, which affects how security teams prioritise patching.",
+     "headline": "Amazon says hackers' AI agents found and exploited a zero-day with little human input",
+     "summary": "Amazon reported that attackers used AI agents to find and exploit a zero-day vulnerability with minimal human involvement. The report ties this to the Cairn AI framework, which it says helps both defenders and attackers.",
+     "why": "Autonomous AI exploitation shortens the window between vulnerability discovery and attack, which affects patching and security priorities.",
      "sources": [
       {
        "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
        "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-       "source": "Ars Technica"
+       "source": "Ars Technica",
+       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg"
       }
      ]
     },
     {
-     "headline": "US financial crimes bureau FinCEN investigating a cybersecurity incident",
-     "summary": "The Financial Crimes Enforcement Network, part of the Treasury Department, disclosed that it is investigating an incident that gave unauthorised access to a limited subset of its systems. It has not yet shared further details.",
-     "why": "A government agency breach with no details yet is a reminder to review access controls and monitor for unauthorised access to sensitive systems.",
+     "headline": "US Treasury's FinCEN investigates 'cybersecurity incident' in its systems",
+     "summary": "The Financial Crimes Enforcement Network, part of the Treasury Department, disclosed that it is investigating a cybersecurity incident. It said the incident led to unauthorized access to a limited subset of its systems, and it has not yet shared further details.",
+     "why": "A breach at a federal financial-intelligence agency is a reminder that government systems holding sensitive data remain prime targets.",
      "sources": [
       {
        "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
        "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
-       "source": "The Verge"
+       "source": "The Verge",
+       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_B.png?quality=90&strip=all&crop=0,0,100,100"
       }
      ]
     },
     {
-     "headline": "Tidal to ban AI-generated music and remove about 27 million tracks",
-     "summary": "Streaming service Tidal announced it will ban AI-generated music and delete around 27 million tracks. AI songs made up 6.3 percent of its catalogue.",
-     "why": "Platforms are tightening content rules on AI-generated material, which affects how media, labels and tools that produce generative content are governed.",
+     "headline": "Huawei found guilty of stealing US trade secrets",
+     "summary": "A federal jury in New York found Huawei guilty of stealing US trade secrets. The case accused the Chinese telecom company of taking source code and proprietary technology from several companies, ending a years-long legal battle.",
+     "why": "The verdict centres on source code theft, which matters to engineering leaders thinking about trade secret protection and supplier risk.",
+     "sources": [
+      {
+       "title": "Huawei found guilty of stealing trade secrets",
+       "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+       "source": "The Verge",
+       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302952808.jpg?quality=90&strip=all&crop=0,0,100,100"
+      }
+     ]
+    },
+    {
+     "headline": "Tidal bans AI-generated music, removing about 27 million tracks",
+     "summary": "The streaming service Tidal announced a ban on AI-generated music and said about 27 million tracks will be deleted. AI songs made up 6.3 percent of its catalog.",
+     "why": "Platforms are setting explicit content policies on AI-generated material, which affects anyone building generative media or content-moderation systems.",
      "sources": [
       {
        "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
        "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-       "source": "Ars Technica"
-      }
-     ]
-    },
-    {
-     "headline": "Congress scrambles to reauthorise Section 702 surveillance authority before it lapses",
-     "summary": "Members of Congress are racing to reauthorise Section 702 of the Foreign Intelligence Surveillance Act, a warrantless wiretapping authority, with some considering attaching it to a must-pass military spending bill. The end of the legislative session is only weeks away.",
-     "why": "Changes to 702 could affect the legal framework for data handling and cross-border communications that tech companies depend on.",
-     "sources": [
-      {
-       "title": "The clock is running out for America’s most contentious spying law",
-       "url": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-       "source": "The Verge"
+       "source": "Ars Technica",
+       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg"
       }
      ]
     }
@@ -245,244 +259,67 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "CLI-Anything pitches making all software agent-native, trends on GitHub",
-     "summary": "The Python project CLI-Anything describes its goal as making all software agent-native and links to a CLI-Hub site. It gained about 1,070 GitHub stars today and has roughly 65,000 in total. The scope is the project's own claim and is not yet proven.",
-     "why": "Agent-facing command-line interfaces could change how teams expose internal tools to AI agents, but the scope claim needs scrutiny.",
-     "sources": [
-      {
-       "title": "HKUDS/CLI-Anything: \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-       "url": "https://github.com/HKUDS/CLI-Anything",
-       "source": "GitHub Trending"
-      }
-     ]
-    },
-    {
-     "headline": "Claude Code bug-hunting skill bundle surges on GitHub Trending",
-     "summary": "A Python repo bundles 84 Claude Code skills and 15 slash commands for bug hunting and external red-team work, citing 681 disclosed-report patterns across 24 vulnerability classes. It added about 1,800 stars today, around 22,000 in total.",
-     "why": "AI-driven vulnerability hunting tools are spreading quickly, so security teams should review their output quality and misuse risks before adopting them.",
+     "headline": "Claude-BugHunter, a Claude Code skill bundle for bug hunting, tops GitHub Trending",
+     "summary": "A Python repo offering Claude Code skills for bug hunting and external red-team work gained about 1,826 stars today, with 22k total. It bundles 84 skills, 15 slash commands, and 681 patterns drawn from disclosed reports. Star counts show interest, not proven results.",
+     "why": "Teams using AI coding agents for security work may want to test whether packaged skills improve review quality before relying on them.",
      "sources": [
       {
        "title": "elementalsouls/Claude-BugHunter: A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerabilit",
        "url": "https://github.com/elementalsouls/Claude-BugHunter",
-       "source": "GitHub Trending"
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-25/elementalsouls/Claude-BugHunter"
       }
      ]
     },
     {
-     "headline": "Superpowers agent skills framework adds about 1,000 stars in a day",
-     "summary": "obra/superpowers, described as an agentic skills framework and software development methodology, gained about 1,000 stars today and has roughly 326,000 in total. The item gives no further details on what it does.",
-     "why": "Wide interest in agent workflow frameworks affects how developers plan, delegate and review AI-assisted coding work.",
+     "headline": "CLI-Anything pitches agent-native interfaces for all software",
+     "summary": "The Python project CLI-Anything, which describes its goal as making all software agent-native, gained about 1,074 stars today. It also links a CLI-Hub for sharing these interfaces. The concept is still largely promotional, and its real-world coverage is not shown in the item.",
+     "why": "If software exposes command-line interfaces built for agents, integrating tools into automated workflows could get much simpler.",
+     "sources": [
+      {
+       "title": "HKUDS/CLI-Anything: \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+       "url": "https://github.com/HKUDS/CLI-Anything",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-25/HKUDS/CLI-Anything"
+      }
+     ]
+    },
+    {
+     "headline": "superpowers agent skills framework keeps climbing trending charts",
+     "summary": "The obra/superpowers repo, described as an agentic skills framework and software development methodology, gained about 1,003 stars today and has over 326k in total. It is one of the most-starred projects in this agent-skills wave. Popularity does not show that its methods work better.",
+     "why": "Leaders evaluating AI coding assistants may see shared skill frameworks as a way to standardise how agents work across a team.",
      "sources": [
       {
        "title": "obra/superpowers: An agentic skills framework & software development methodology that works.",
        "url": "https://github.com/obra/superpowers",
-       "source": "GitHub Trending"
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-25/obra/superpowers"
       }
      ]
     },
     {
-     "headline": "Firecrawl pitches itself as knowledge infrastructure for AI agents",
-     "summary": "The TypeScript project Firecrawl describes itself as a single API for searching, scraping and accessing 550+ data providers for agents. It gained about 1,000 stars today and has roughly 209,000 in total.",
-     "why": "Agent builders often need web and data access, so one API could simplify integrations, though provider coverage and terms should be checked.",
+     "headline": "Firecrawl pitches one API for search, scraping, and 550+ data providers",
+     "summary": "The TypeScript project firecrawl gained about 991 stars today, with roughly 209k in total. It describes itself as knowledge infrastructure that lets agents search, scrape, and access over 550 data providers through one API. Its claims are the maintainers' own and are not independently verified here.",
+     "why": "Teams building agents that need live web data may weigh whether a single hosted API could replace several custom scrapers.",
      "sources": [
       {
        "title": "firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
        "url": "https://github.com/firecrawl/firecrawl",
-       "source": "GitHub Trending"
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-25/firecrawl/firecrawl"
       }
      ]
     },
     {
-     "headline": "Cursor publishes a plugin specification with official plugins",
-     "summary": "Cursor's GitHub repo now contains a plugin specification and official plugins, written in TypeScript. It gained about 360 stars today and has roughly 19,000 in total. The item does not say how stable the spec is.",
-     "why": "A public plugin spec would let teams build and share editor extensions, but its long-term stability is still unclear.",
+     "headline": "Cursor publishes a plugin specification alongside official plugins",
+     "summary": "The cursor/plugins repo, a TypeScript project, shares a Cursor plugin specification and official plugins. It gained about 360 stars today, with around 19k in total. The item does not describe what the plugins do or how third parties can publish them.",
+     "why": "A public plugin spec could let engineering teams extend their editor with internal tools, but the details need checking in the repo.",
      "sources": [
       {
        "title": "cursor/plugins: Cursor plugin specification and official plugins",
        "url": "https://github.com/cursor/plugins",
-       "source": "GitHub Trending"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "leadership",
-   "label": "Leadership & Management",
-   "cadence": "weekly",
-   "stories": [
-    {
-     "headline": "JetBrains CEO predicts the end of manual code review within two years",
-     "summary": "JetBrains' CEO gives manual code review about two years before it is no longer the norm. The claim points to AI taking over reviewing work.",
-     "why": "If review shifts to AI, leaders will need to rethink review standards, accountability and how teams spend their time.",
-     "sources": [
-      {
-       "title": "The end of manual code review?",
-       "url": "https://leaddev.com/software-quality/the-end-of-manual-code-review?utm_source=leaddev&utm_medium=RSS",
-       "source": "LeadDev"
-      }
-     ]
-    },
-    {
-     "headline": "Capital One describes its multi-agent AI system as a platform problem",
-     "summary": "A LeadDev article looks inside Capital One's multi-agent AI system and frames building it as a platform challenge rather than a single-product one.",
-     "why": "Leaders planning AI rollouts may need to treat agent systems as shared platforms with their own governance and ownership.",
-     "sources": [
-      {
-       "title": "Inside Capital One’s multi-agent system",
-       "url": "https://leaddev.com/ai/inside-capital-ones-multi-agent-system?utm_source=leaddev&utm_medium=RSS",
-       "source": "LeadDev"
-      }
-     ]
-    },
-    {
-     "headline": "Engineering metrics are not the problem; how leaders use them is",
-     "summary": "A LeadDev piece argues that engineering metrics are not inherently misleading. The harm comes from how managers interpret and apply them.",
-     "why": "It puts the responsibility on leaders for how measurement shapes team behaviour and performance conversations.",
-     "sources": [
-      {
-       "title": "Lies our engineering metrics tell us",
-       "url": "https://leaddev.com/reporting/lies-our-engineering-metrics-tell-us?utm_source=leaddev&utm_medium=RSS",
-       "source": "LeadDev"
-      }
-     ]
-    },
-    {
-     "headline": "Coaching engineers from different backgrounds: great work needs visibility",
-     "summary": "A LeadDev article on coaching engineers from varied backgrounds argues that strong work does not speak for itself. It suggests managers need to actively make contributions visible.",
-     "why": "Managers who rely on quality alone may overlook talented engineers whose work is less visible.",
-     "sources": [
-      {
-       "title": "How to coach engineers from different backgrounds",
-       "url": "https://leaddev.com/career-development/how-to-coach-engineers-from-different-backgrounds?utm_source=leaddev&utm_medium=RSS",
-       "source": "LeadDev"
-      }
-     ]
-    },
-    {
-     "headline": "Four habits of technology-savvy leaders, per MIT Sloan Management Review",
-     "summary": "An MIT Sloan Management Review feature describes four habits of technology-savvy leaders as new technology reshapes markets, jobs and infrastructure.",
-     "why": "It offers a framework for leaders who must guide teams through rapid technology change.",
-     "sources": [
-      {
-       "title": "Four Habits of Tech-Savvy Leaders",
-       "url": "https://sloanreview.mit.edu/article/four-habits-of-tech-savvy-leaders/",
-       "source": "MIT Sloan Management Review"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "psychology",
-   "label": "Psychology",
-   "cadence": "weekly",
-   "stories": [
-    {
-     "headline": "Cannabis users develop psychosis about 2.5 years earlier, with the gap widening with age",
-     "summary": "A meta-analysis of 149 studies found cannabis users developed psychosis on average 2.5 years earlier than non-users. Among adults 30 and older, the difference grew to more than six years. Researchers warn the risks may build up over time.",
-     "why": "Relevant for teams building wellness or health products, as it suggests cannabis-related mental health risks may be cumulative.",
-     "sources": [
-      {
-       "title": "Cannabis users develop psychosis years earlier, and the gap grows with age",
-       "url": "https://www.sciencedaily.com/releases/2026/11/261123005346.htm",
-       "source": "ScienceDaily: Mind & Brain"
-      }
-     ]
-    },
-    {
-     "headline": "New 'circadian depression' subtype tied to the body clock may resist common antidepressants",
-     "summary": "Researchers describe a depression subtype linked to the body's internal clock, which may affect nearly one in four people with severe, recurrent or persistent depression. It is associated with night-owl habits, excess sleep and persistent exhaustion.",
-     "why": "Suggests sleep and daily timing may matter for mental health tools and screening, not only mood symptoms.",
-     "sources": [
-      {
-       "title": "Scientists discover a new type of depression that common antidepressants struggle to treat",
-       "url": "https://www.sciencedaily.com/releases/2026/11/261123005352.htm",
-       "source": "ScienceDaily: Mind & Brain"
-      }
-     ]
-    },
-    {
-     "headline": "AI analysis finds three brain types behind ADHD and anxiety that cut across diagnoses",
-     "summary": "An AI-powered analysis of thousands of children's brain scans identified three distinct brain patterns linked to ADHD and anxiety that do not fit neatly into traditional diagnoses. The patterns can appear before a diagnosis, potentially enabling earlier, personalised care.",
-     "why": "Shows how machine learning on imaging data could reshape psychiatric classification, which matters to health-tech builders.",
-     "sources": [
-      {
-       "title": "Stanford scientists discover 3 hidden brain types behind ADHD and anxiety",
-       "url": "https://www.sciencedaily.com/releases/2026/11/261124055713.htm",
-       "source": "ScienceDaily: Mind & Brain"
-      }
-     ]
-    },
-    {
-     "headline": "Exercise frequency may matter more than intensity for college students' mental health",
-     "summary": "A study of more than 10,000 college students found that those who exercised less often were more likely to report depression and anxiety a year later. Intense or lengthy workouts mattered less than regularity.",
-     "why": "Suggests consistency may matter more than intensity in wellbeing programmes, though this rests on a single study.",
-     "sources": [
-      {
-       "title": "For better mental health, how often you exercise may matter more than how hard",
-       "url": "https://www.sciencedaily.com/releases/2026/11/261119194601.htm",
-       "source": "ScienceDaily: Mind & Brain"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "investing",
-   "label": "Investment",
-   "cadence": "weekly",
-   "stories": [
-    {
-     "headline": "Sanofi agrees to buy Insmed in pharma's biggest deal in three years",
-     "summary": "Sanofi agreed to acquire drugmaker Insmed, and Insmed shares rose about 14%. Sanofi faces revenue pressure later in the decade as top-selling drugs lose exclusivity to generic competitors.",
-     "why": "Large pharma acquisitions can reshape the software and data vendors serving those companies and the teams integrating them.",
-     "sources": [
-      {
-       "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
-       "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
-       "source": "CNBC"
-      }
-     ]
-    },
-    {
-     "headline": "Dell's sales more than double on AI servers, and it authorizes $25 billion buyback",
-     "summary": "Dell reported that third-quarter sales more than doubled year on year, driven by demand for AI servers, and its shares rose. The company also authorized a $25 billion share buyback.",
-     "why": "Surging AI server demand shows where infrastructure spending is going, which shapes capacity and pricing for teams building AI systems.",
-     "sources": [
-      {
-       "title": "Dell’s stock rises as the AI boom helps sales more than double",
-       "url": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
-       "source": "MarketWatch"
-      },
-      {
-       "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
-       "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
-       "source": "CNBC"
-      }
-     ]
-    },
-    {
-     "headline": "AI debt worries grow as lenders get pickier over Big Tech bonds",
-     "summary": "Lenders are becoming more selective about corporate bonds, which could make it harder for Big Tech to raise debt for the AI build-out. Coverage says Nvidia's share rebound masks a squeeze on tech companies' spending.",
-     "why": "If financing for AI infrastructure tightens, project timelines and cloud or hardware costs could change for teams that depend on them.",
-     "sources": [
-      {
-       "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
-       "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
-       "source": "CNBC"
-      }
-     ]
-    },
-    {
-     "headline": "Norse Atlantic shares fall 77% after warning its finances are critical",
-     "summary": "Norwegian budget airline Norse Atlantic's shares fell 77% after it said its finances were critical amid soaring fuel costs. The company said its situation depends on securing financing for short-term liquidity needs.",
-     "why": "It illustrates how fuel cost spikes and funding gaps can quickly threaten smaller companies that depend on tight operating margins.",
-     "sources": [
-      {
-       "title": "Budget carrier Norse Atlantic falls 77% after warning its finances are ‘critical’ amid soaring fuel costs",
-       "url": "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html",
-       "source": "CNBC"
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-25/cursor/plugins"
       }
      ]
     }
