@@ -9,6 +9,10 @@ on:
         description: "Only test the news sources (no AI call, nothing saved)"
         type: boolean
         default: false
+      weekly:
+        description: "Include the weekly sections (Leadership, Psychology, Investment) even if it's not Monday"
+        type: boolean
+        default: false
 
 # Only what the job needs: push the brief, and ask GitHub for a short-lived identity token
 # that Anthropic swaps for a ~10-minute access token (no API key stored anywhere).
@@ -37,6 +41,8 @@ jobs:
 
       - name: Fetch sources
         working-directory: repo
+        env:
+          FORCE_WEEKLY: ${{ inputs.weekly && '1' || '' }}
         run: python3 scripts/fetch.py
 
       # Keyless: these IDs are not secrets. The federation rule in the Claude Console only accepts
