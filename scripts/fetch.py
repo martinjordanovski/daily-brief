@@ -127,7 +127,10 @@ def rss(src):
 
 
 def hn(src):
-    data = json.loads(get("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=80"))
+    """Hacker News via the public Algolia API. Options: min_points, keywords, tags."""
+    tags = src.get("tags", "front_page")          # front_page, or e.g. show_hn for the newest Show HN posts
+    endpoint = "search" if tags == "front_page" else "search_by_date"
+    data = json.loads(get(f"https://hn.algolia.com/api/v1/{endpoint}?tags={urllib.parse.quote(tags)}&hitsPerPage=80"))
     kws = [k.lower() for k in src.get("keywords", [])]
     out = []
     for h in data.get("hits", []):

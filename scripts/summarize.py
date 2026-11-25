@@ -9,7 +9,7 @@ Authentication: keyless Workload Identity Federation on GitHub Actions (preferre
 short-lived OIDC token for a ~10-minute Anthropic token, so no API key is stored anywhere), or ANTHROPIC_API_KEY.
 Writes briefs/YYYY-MM-DD.json, data/index.json and feed.xml.
 """
-import datetime as dt, json, os, re, sys, time, urllib.error, urllib.request
+import datetime as dt, html, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from xml.sax.saxutils import escape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -169,6 +169,53 @@ def pick_top(model, sections):
     return [dict(section=x["section"], index=0) for x in listing if x["index"] == 0][:3]
 
 
+OG_RE = [re.compile(r"""<meta[^>]+(?:property|name)=["'](?:og:image(?::secure_url|:url)?|twitter:image(?::src)?)["'][^>]*>""", re.I)]
+CONTENT_RE = re.compile(r"""content=["']([^"']+)["']""", re.I)
+
+
+def og_image(url):
+    """The preview picture a page declares for link sharing (og:image / twitter:image), or None.
+    Reads only the start of the page and takes nothing but an https image address from it."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "daily-brief/1.0 (+https://martinjordanovski.com/daily-brief/)",
+                                                   "Accept": "text/html"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            if "html" not in (r.headers.get("content-type") or ""):
+                return None
+            head = r.read(400_000).decode("utf-8", "replace")
+    except Exception:  # noqa: BLE001 - blocked, paywalled, slow: just no picture
+        return None
+    for rx in OG_RE:
+        for tag in rx.findall(head):
+            m = CONTENT_RE.search(tag)
+            if not m:
+                continue
+            u = urllib.parse.urljoin(url, html.unescape(m.group(1).strip()))
+            p = urllib.parse.urlparse(u)
+            if p.scheme == "https" and p.netloc and len(u) <= 500:
+                return u
+    return None
+
+
+def fill_images(sections):
+    """Give stories without a feed picture the preview image of one of their articles."""
+    found = tried = 0
+    for sec in sections:
+        for st in sec["stories"]:
+            if any(x.get("image") for x in st["sources"]):
+                continue
+            for src in st["sources"][:2]:
+                if "news.ycombinator.com/item" in src["url"]:
+                    continue
+                tried += 1
+                img = og_image(src["url"])
+                if img:
+                    src["image"] = img
+                    found += 1
+                    break
+    print(f"preview images: found {found} for {tried} pages tried")
+
+
 def write_feed(index):
     items = []
     for d in reversed(index["dates"][-30:]):
@@ -209,6 +256,7 @@ def main():
         sections.append(dict(id=cat["id"], label=cat["label"], cadence=cat["cadence"], stories=stories))
     if not any(s["stories"] for s in sections):
         sys.exit("no stories produced; nothing saved")
+    fill_images(sections)
     os.makedirs(os.path.join(ROOT, "briefs"), exist_ok=True)
     bpath = os.path.join(ROOT, "briefs", f"{date}.json")
     weekly = work["weekly"]

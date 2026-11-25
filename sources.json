@@ -72,6 +72,41 @@
             "cursor",
             "codex"
           ]
+        },
+        {
+          "type": "rss",
+          "name": "Microsoft AI",
+          "url": "https://blogs.microsoft.com/ai/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "VentureBeat AI",
+          "url": "https://venturebeat.com/category/ai/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Import AI",
+          "url": "https://importai.substack.com/feed"
+        },
+        {
+          "type": "rss",
+          "name": "Latent Space",
+          "url": "https://www.latent.space/feed"
         }
       ]
     },
@@ -132,6 +167,41 @@
             "open source",
             "programming"
           ]
+        },
+        {
+          "type": "rss",
+          "name": "Inside Java",
+          "url": "https://inside.java/feed.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Spring Blog",
+          "url": "https://spring.io/blog.atom"
+        },
+        {
+          "type": "rss",
+          "name": "JetBrains Blog",
+          "url": "https://blog.jetbrains.com/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Stack Overflow Blog",
+          "url": "https://stackoverflow.blog/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/rss/"
+        },
+        {
+          "type": "rss",
+          "name": "AWS News Blog",
+          "url": "https://aws.amazon.com/blogs/aws/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "The New Stack",
+          "url": "https://thenewstack.io/feed/"
         }
       ]
     },
@@ -160,6 +230,26 @@
           "type": "hn",
           "name": "Hacker News",
           "min_points": 150
+        },
+        {
+          "type": "rss",
+          "name": "Wired",
+          "url": "https://www.wired.com/feed/rss"
+        },
+        {
+          "type": "rss",
+          "name": "Engadget",
+          "url": "https://www.engadget.com/rss.xml"
+        },
+        {
+          "type": "rss",
+          "name": "BBC Technology",
+          "url": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+        },
+        {
+          "type": "rss",
+          "name": "The Register",
+          "url": "https://www.theregister.com/headlines.atom"
         }
       ]
     },
@@ -173,6 +263,12 @@
           "type": "hn",
           "name": "Hacker News",
           "min_points": 300
+        },
+        {
+          "type": "hn",
+          "name": "Show HN",
+          "tags": "show_hn",
+          "min_points": 100
         },
         {
           "type": "github_radar",
@@ -211,6 +307,26 @@
           "type": "rss",
           "name": "First Round Review",
           "url": "https://review.firstround.com/feed"
+        },
+        {
+          "type": "rss",
+          "name": "Lenny's Newsletter",
+          "url": "https://www.lennysnewsletter.com/feed"
+        },
+        {
+          "type": "rss",
+          "name": "Irrational Exuberance (Will Larson)",
+          "url": "https://lethain.com/feeds.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Rands in Repose",
+          "url": "https://randsinrepose.com/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Refactoring (Luca Rossi)",
+          "url": "https://refactoring.fm/feed"
         }
       ]
     },
@@ -234,6 +350,21 @@
           "type": "rss",
           "name": "Psychology Today",
           "url": "https://www.psychologytoday.com/us/front/feed"
+        },
+        {
+          "type": "rss",
+          "name": "PsyPost",
+          "url": "https://www.psypost.org/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "APS Psychological Science",
+          "url": "https://www.psychologicalscience.org/feed"
+        },
+        {
+          "type": "rss",
+          "name": "BPS Research Digest",
+          "url": "https://www.bps.org.uk/research-digest/rss.xml"
         }
       ]
     },
@@ -257,6 +388,21 @@
           "type": "rss",
           "name": "Yahoo Finance",
           "url": "https://finance.yahoo.com/news/rssindex"
+        },
+        {
+          "type": "rss",
+          "name": "Seeking Alpha Market News",
+          "url": "https://seekingalpha.com/market_currents.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Investopedia News",
+          "url": "https://www.investopedia.com/feedbuilder/feed/getfeed/?feedName=rss_headline"
+        },
+        {
+          "type": "rss",
+          "name": "Fortune Finance",
+          "url": "https://fortune.com/section/finance/feed/"
         }
       ]
     }
