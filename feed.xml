@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Daily brief - Martin Jordanovski</title>
+  <link>https://martinjordanovski.com/daily-brief/</link>
+  <description>AI, technology and software development news, summarised every morning. Leadership, psychology and investing on Mondays.</description>
+  <language>en</language>
+  <item>
+    <title>Daily brief, 25 Nov 2026</title>
+    <link>https://martinjordanovski.com/daily-brief/#2026-11-25</link>
+    <guid isPermaLink="false">daily-brief-2026-11-25</guid>
+    <pubDate>Wed, 25 Nov 2026 12:44:12 +0100</pubDate>
+    <description>Tidal to ban fully AI-generated music from December 9: Tidal will stop hosting fully AI-generated music on December 9 and delete about 29 million such songs. It expects to reject roughly 80,000 to 85,000 tracks per day. Songs made with AI assistance remain allowed.
+
+AWS Lambda raises maximum timeout from 15 to 30 minutes: AWS now allows on-demand Lambda event functions to run for up to 30 minutes, up from a limit that had stood since 2018. The change applies in all commercial regions with no opt-in and no new pricing.
+
+Microsoft declares internal 'Code Red' after near-24-hour Outlook and Exchange Online outage: A nearly 24-hour Exchange Online and Outlook outage cut off email for millions of customers. Reuters reports Microsoft declared an unusual internal 'Code Red' in response, and internal memos describe an overhaul with one-hour recovery goals.</description>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,169 @@
+{
+ "checked": "2026-11-25T11:43:31+00:00",
+ "sources": [
+  {
+   "category": "ai",
+   "source": "OpenAI",
+   "ok": true,
+   "items": 25,
+   "fresh": 2
+  },
+  {
+   "category": "ai",
+   "source": "Google DeepMind",
+   "ok": false,
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "category": "ai",
+   "source": "Google AI",
+   "ok": true,
+   "items": 20,
+   "fresh": 1
+  },
+  {
+   "category": "ai",
+   "source": "Hugging Face",
+   "ok": true,
+   "items": 25,
+   "fresh": 2
+  },
+  {
+   "category": "ai",
+   "source": "The Verge AI",
+   "ok": true,
+   "items": 10,
+   "fresh": 6
+  },
+  {
+   "category": "ai",
+   "source": "TechCrunch AI",
+   "ok": true,
+   "items": 20,
+   "fresh": 13
+  },
+  {
+   "category": "ai",
+   "source": "MIT Technology Review",
+   "ok": true,
+   "items": 10,
+   "fresh": 1
+  },
+  {
+   "category": "ai",
+   "source": "Simon Willison",
+   "ok": true,
+   "items": 25,
+   "fresh": 2
+  },
+  {
+   "category": "ai",
+   "source": "Hacker News",
+   "ok": true,
+   "items": 6,
+   "fresh": 6
+  },
+  {
+   "category": "dev",
+   "source": "GitHub Blog",
+   "ok": true,
+   "items": 10,
+   "fresh": 1
+  },
+  {
+   "category": "dev",
+   "source": "InfoQ",
+   "ok": true,
+   "items": 15,
+   "fresh": 7
+  },
+  {
+   "category": "dev",
+   "source": "The Pragmatic Engineer",
+   "ok": true,
+   "items": 20,
+   "fresh": 1
+  },
+  {
+   "category": "dev",
+   "source": "Martin Fowler",
+   "ok": true,
+   "items": 25,
+   "fresh": 0
+  },
+  {
+   "category": "dev",
+   "source": "Lobsters",
+   "ok": false,
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  {
+   "category": "dev",
+   "source": "Hacker News",
+   "ok": true,
+   "items": 2,
+   "fresh": 2
+  },
+  {
+   "category": "tech",
+   "source": "The Verge",
+   "ok": true,
+   "items": 10,
+   "fresh": 10
+  },
+  {
+   "category": "tech",
+   "source": "Ars Technica",
+   "ok": true,
+   "items": 20,
+   "fresh": 17
+  },
+  {
+   "category": "tech",
+   "source": "TechCrunch",
+   "ok": true,
+   "items": 20,
+   "fresh": 19
+  },
+  {
+   "category": "tech",
+   "source": "Hacker News",
+   "ok": true,
+   "items": 13,
+   "fresh": 11
+  },
+  {
+   "category": "hype",
+   "source": "Hacker News",
+   "ok": true,
+   "items": 6,
+   "fresh": 5
+  },
+  {
+   "category": "hype",
+   "source": "GitHub Trending",
+   "ok": true,
+   "items": 10,
+   "fresh": 10
+  },
+  {
+   "category": "hype",
+   "source": "r/LocalLLaMA",
+   "ok": false,
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "category": "hype",
+   "source": "r/singularity",
+   "ok": false,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "category": "hype",
+   "source": "Product Hunt",
+   "ok": true,
+   "items": 25,
+   "fresh": 14
+  }
+ ]
+}

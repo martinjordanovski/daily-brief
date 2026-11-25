@@ -1,0 +1,317 @@
+{
+ "date": "2026-11-25",
+ "generated": "2026-11-25T12:44:12+01:00",
+ "model": "claude-haiku-5-5",
+ "weekly": false,
+ "top": [
+  {
+   "section": "ai",
+   "index": 0
+  },
+  {
+   "section": "dev",
+   "index": 0
+  },
+  {
+   "section": "tech",
+   "index": 0
+  }
+ ],
+ "sections": [
+  {
+   "id": "ai",
+   "label": "AI",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "Tidal to ban fully AI-generated music from December 9",
+     "summary": "Tidal will stop hosting fully AI-generated music on December 9 and delete about 29 million such songs. It expects to reject roughly 80,000 to 85,000 tracks per day. Songs made with AI assistance remain allowed.",
+     "why": "Streaming platforms are setting content-provenance rules that could shape how AI-generated media is labeled and filtered.",
+     "sources": [
+      {
+       "title": "Tidal will start banning AI-generated music next month",
+       "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+       "source": "The Verge AI"
+      },
+      {
+       "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+       "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "Anthropic shares fall below IPO price",
+     "summary": "Anthropic's stock has slipped under its IPO price since listing. Analysts quoted by TechCrunch say the slump could pressure valuations across AI startups.",
+     "why": "A weak public debut for a leading lab may tighten funding and change how investors price AI companies.",
+     "sources": [
+      {
+       "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+       "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+       "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "Amazon reportedly buys Decart for about $7.5 billion",
+     "summary": "Amazon is reportedly acquiring Decart for about $7.5 billion. The deal is part of its effort to improve the efficiency of its Trainium chips and narrow the gap with Nvidia through software.",
+     "why": "Software-driven efficiency gains on alternative AI chips could affect which cloud hardware teams choose and how they optimise workloads.",
+     "sources": [
+      {
+       "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+       "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+       "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "UK cyber agency says AI attacks exploit years of weak security",
+     "summary": "The UK's National Cyber Security Centre warns that AI-driven hacking tools are succeeding by exploiting simple, long-known security flaws. It stresses that strong basic foundations matter more than ever.",
+     "why": "As AI makes old weaknesses cheaper to exploit, patching and basic security hygiene become more urgent for engineering teams.",
+     "sources": [
+      {
+       "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+       "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+       "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "New benchmark finds AI agents struggle with everyday tasks",
+     "summary": "A new benchmark shows that even leading AI models often fail to complete everyday tasks reliably and safely. In some cases, they introduce new problems while trying.",
+     "why": "Teams building personal-assistant agents should expect reliability and safety gaps on real-world tasks.",
+     "sources": [
+      {
+       "title": "Even the best AI agents struggle with everyday life",
+       "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+       "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "NYT tells photographers to avoid Photoshop 2027 over AI features",
+     "summary": "The New York Times has asked freelance photographers not to use the 2027 Photoshop update. It says the AI features work in ways that may not be apparent to users.",
+     "why": "Undisclosed AI features in mainstream creative tools raise provenance and trust concerns for teams that depend on them.",
+     "sources": [
+      {
+       "title": "The New York Times warns photographers not to update Photoshop over AI features",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+       "source": "The Verge AI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dev",
+   "label": "Software Development",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "AWS Lambda raises maximum timeout from 15 to 30 minutes",
+     "summary": "AWS now allows on-demand Lambda event functions to run for up to 30 minutes, up from a limit that had stood since 2018. The change applies in all commercial regions with no opt-in and no new pricing.",
+     "why": "Longer runs can remove workarounds for long jobs, but AWS notes the change also affects concurrency and queue and Kafka settings, so teams should review those.",
+     "sources": [
+      {
+       "title": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
+       "url": "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ"
+      }
+     ]
+    },
+    {
+     "headline": "Rust 1.100 stabilises the never type after ten years",
+     "summary": "Rust 1.100.0, released 12 November 2026, stabilises the never type (!) and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds DropGuard, and adds an opt-in dependency cooldown setting for Cargo.",
+     "why": "Stable never type and allocator APIs affect library design, and the Cargo cooldown gives teams a new option for managing dependency updates.",
+     "sources": [
+      {
+       "title": "Rust 1.100 Ships the Never Type After Ten Years and Five Failed Attempts",
+       "url": "https://www.infoq.com/news/2026/11/rust-1-100-never-types/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ"
+      }
+     ]
+    },
+    {
+     "headline": "OpenAI details Pando, a backend that scales Git for coding agents",
+     "summary": "OpenAI has described Pando, a backend that handles concurrent Git workloads from coding agents while keeping standard Git workflows. The company reports nearly 80% lower median push latency by updating branches independently and reusing stored packfiles across fetches.",
+     "why": "As agents push code in parallel, Git server throughput may become a bottleneck, and this shows one approach to handling it.",
+     "sources": [
+      {
+       "title": "OpenAI Scales Git for Coding Agents with Pando",
+       "url": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ"
+      }
+     ]
+    },
+    {
+     "headline": "CNCF research finds VMs still host most production workloads",
+     "summary": "New research from the CNCF and Linux Foundation Research finds virtual machines host an average of 53% of production applications. It also reports that AI and agentic workloads are adding demand for virtualisation where stronger execution isolation is needed.",
+     "why": "Teams planning AI and agent infrastructure should expect VMs to stay central, especially where isolation matters.",
+     "sources": [
+      {
+       "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+       "url": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ"
+      }
+     ]
+    },
+    {
+     "headline": "OpenAI says agents suit open-ended data platform upkeep, such as Spark upgrades",
+     "summary": "At QCon San Francisco 2026, OpenAI's data infrastructure engineering manager argued that AI agents are most useful for open-ended operational work that is hard to turn into fixed playbooks. He cited Spark upgrades handled with Codex agents as an example, rather than rebuilding platforms.",
+     "why": "It offers a practical view of where coding agents fit in data platform operations, based on one company's experience.",
+     "sources": [
+      {
+       "title": "QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI",
+       "url": "https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "label": "Technology",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "Microsoft declares internal 'Code Red' after near-24-hour Outlook and Exchange Online outage",
+     "summary": "A nearly 24-hour Exchange Online and Outlook outage cut off email for millions of customers. Reuters reports Microsoft declared an unusual internal 'Code Red' in response, and internal memos describe an overhaul with one-hour recovery goals.",
+     "why": "It shows how a single bug in networking infrastructure can take down a major service, and it prompts reviews of cloud recovery and incident response.",
+     "sources": [
+      {
+       "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
+       "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
+       "source": "The Verge"
+      },
+      {
+       "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+       "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+       "source": "Ars Technica"
+      }
+     ]
+    },
+    {
+     "headline": "Amazon says attackers' AI agents found and exploited a zero-day with little human help",
+     "summary": "Amazon reports that hackers used AI agents, built on a framework called Cairn AI, to find and exploit a zero-day vulnerability with minimal human input. The article says the same tools are helping defenders too.",
+     "why": "Autonomous AI tools are shortening the time needed to find and exploit vulnerabilities, which affects how teams prioritise patching and security testing.",
+     "sources": [
+      {
+       "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+       "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+       "source": "Ars Technica"
+      }
+     ]
+    },
+    {
+     "headline": "Huawei found guilty of stealing US trade secrets",
+     "summary": "A federal jury in New York found Huawei guilty of stealing US trade secrets. The case, which spanned several years, accused the Chinese telecom company of taking source code and proprietary technology from multiple companies.",
+     "why": "The verdict bears on how trade secret and source code theft is prosecuted, which matters to engineering teams handling proprietary code and cross-border partnerships.",
+     "sources": [
+      {
+       "title": "Huawei found guilty of stealing trade secrets",
+       "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+       "source": "The Verge"
+      }
+     ]
+    },
+    {
+     "headline": "US financial crimes bureau FinCEN investigates a cybersecurity incident",
+     "summary": "The Financial Crimes Enforcement Network, part of the Treasury Department, disclosed it is investigating a cybersecurity incident. It said unauthorised access affected a limited subset of its systems, and it has not released further details.",
+     "why": "A breach at a government regulator underlines the need for access controls and monitoring in systems that hold sensitive financial data.",
+     "sources": [
+      {
+       "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+       "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+       "source": "The Verge"
+      }
+     ]
+    },
+    {
+     "headline": "Congress races to reauthorise Section 702 surveillance powers before deadline",
+     "summary": "With the legislative session ending in a few weeks, some members of Congress are trying to renew Section 702 of the Foreign Intelligence Surveillance Act, a controversial warrantless wiretapping authority. One senator reportedly suggested attaching it to a must-pass military spending bill.",
+     "why": "Changes to Section 702 could affect how companies handle government data requests and what obligations they face for data they store or process.",
+     "sources": [
+      {
+       "title": "The clock is running out for America’s most contentious spying law",
+       "url": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
+       "source": "The Verge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hype",
+   "label": "Hype / Trending now",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "CLI-Anything trends on GitHub with its goal of making all software agent-native",
+     "summary": "The Python project CLI-Anything, which describes its aim as making all software agent-native, gained 1,074 stars today and has about 65k in total. It also links to a CLI-Hub. The claim is ambitious and the item gives no evidence of results yet, so treat it as hype for now.",
+     "why": "If agents are to operate existing tools, a standard command-line layer could matter, but whether it works at scale is still unproven.",
+     "sources": [
+      {
+       "title": "HKUDS/CLI-Anything: \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+       "url": "https://github.com/HKUDS/CLI-Anything",
+       "source": "GitHub Trending"
+      }
+     ]
+    },
+    {
+     "headline": "Superpowers agent skills framework keeps climbing GitHub Trending",
+     "summary": "obra/superpowers, a Shell-based agentic skills framework and software development methodology, gained 1,003 stars today and has about 326k in total. It is one of the most-starred projects in this list.",
+     "why": "Its popularity shows strong interest in structured workflows and reusable skills for coding agents, which affects how teams set up AI-assisted development.",
+     "sources": [
+      {
+       "title": "obra/superpowers: An agentic skills framework & software development methodology that works.",
+       "url": "https://github.com/obra/superpowers",
+       "source": "GitHub Trending"
+      }
+     ]
+    },
+    {
+     "headline": "Claude-BugHunter skill bundle gains 1,800+ stars for bug hunting",
+     "summary": "Claude-BugHunter is a Python bundle of Claude Code skills for bug hunting and external red-team work. It includes 84 skills, 15 slash commands and 681 patterns from disclosed reports across 24 vulnerability classes. It gained 1,826 stars today.",
+     "why": "Security-testing skill packs for coding agents are spreading quickly, so teams should review what such tools do before running them against real systems.",
+     "sources": [
+      {
+       "title": "elementalsouls/Claude-BugHunter: A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerabilit",
+       "url": "https://github.com/elementalsouls/Claude-BugHunter",
+       "source": "GitHub Trending"
+      }
+     ]
+    },
+    {
+     "headline": "Firecrawl pitches one API for agent data access across 550+ providers",
+     "summary": "Firecrawl describes itself as knowledge infrastructure for agents, offering search, scraping and access to more than 550 data providers through one API. The repository gained 991 stars today and has about 209k in total.",
+     "why": "Agents depend on reliable external data, so a single access layer could simplify how teams build data pipelines for them.",
+     "sources": [
+      {
+       "title": "firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+       "url": "https://github.com/firecrawl/firecrawl",
+       "source": "GitHub Trending"
+      }
+     ]
+    },
+    {
+     "headline": "Cursor publishes plugin specification and diagram skills spread across agents",
+     "summary": "Cursor released a public plugin specification with official plugins, which gained 360 stars today. Separately, diagram-design, a skill for generating editorial diagrams, targets Claude Code, Codex, GitHub Copilot, Cursor and others, and gained 802 stars today.",
+     "why": "A shared plugin format across coding agents would make it easier to write one extension for several tools, though adoption is not yet shown.",
+     "sources": [
+      {
+       "title": "cursor/plugins: Cursor plugin specification and official plugins",
+       "url": "https://github.com/cursor/plugins",
+       "source": "GitHub Trending"
+      },
+      {
+       "title": "cathrynlavery/diagram-design: Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid",
+       "url": "https://github.com/cathrynlavery/diagram-design",
+       "source": "GitHub Trending"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
