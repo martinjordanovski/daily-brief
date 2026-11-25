@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25T11:43:31+00:00",
+ "checked": "2026-11-25T11:49:03+00:00",
  "sources": [
   {
    "category": "ai",
@@ -7,12 +7,6 @@
    "ok": true,
    "items": 25,
    "fresh": 2
-  },
-  {
-   "category": "ai",
-   "source": "Google DeepMind",
-   "ok": false,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
    "category": "ai",
@@ -148,22 +142,77 @@
   },
   {
    "category": "hype",
-   "source": "r/LocalLLaMA",
+   "source": "Product Hunt",
+   "ok": true,
+   "items": 25,
+   "fresh": 13
+  },
+  {
+   "category": "leadership",
+   "source": "MIT Sloan Management Review",
+   "ok": true,
+   "items": 20,
+   "fresh": 2
+  },
+  {
+   "category": "leadership",
+   "source": "Harvard Business Review",
+   "ok": false,
+   "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+  },
+  {
+   "category": "leadership",
+   "source": "LeadDev",
+   "ok": true,
+   "items": 10,
+   "fresh": 5
+  },
+  {
+   "category": "leadership",
+   "source": "First Round Review",
    "ok": false,
    "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
-   "category": "hype",
-   "source": "r/singularity",
-   "ok": false,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "category": "hype",
-   "source": "Product Hunt",
+   "category": "psychology",
+   "source": "ScienceDaily: Mind & Brain",
    "ok": true,
    "items": 25,
-   "fresh": 14
+   "fresh": 16
+  },
+  {
+   "category": "psychology",
+   "source": "Greater Good (Berkeley)",
+   "ok": true,
+   "items": 25,
+   "fresh": 4
+  },
+  {
+   "category": "psychology",
+   "source": "Psychology Today",
+   "ok": true,
+   "items": 25,
+   "fresh": 25
+  },
+  {
+   "category": "investing",
+   "source": "CNBC",
+   "ok": true,
+   "items": 25,
+   "fresh": 25
+  },
+  {
+   "category": "investing",
+   "source": "MarketWatch",
+   "ok": true,
+   "items": 10,
+   "fresh": 10
+  },
+  {
+   "category": "investing",
+   "source": "Yahoo Finance",
+   "ok": false,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   }
  ]
 }

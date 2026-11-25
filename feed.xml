@@ -9,12 +9,12 @@
     <title>Daily brief, 25 Nov 2026</title>
     <link>https://martinjordanovski.com/daily-brief/#2026-11-25</link>
     <guid isPermaLink="false">daily-brief-2026-11-25</guid>
-    <pubDate>Wed, 25 Nov 2026 12:44:12 +0100</pubDate>
-    <description>Tidal to ban fully AI-generated music from December 9: Tidal will stop hosting fully AI-generated music on December 9 and delete about 29 million such songs. It expects to reject roughly 80,000 to 85,000 tracks per day. Songs made with AI assistance remain allowed.
+    <pubDate>Wed, 25 Nov 2026 12:50:06 +0100</pubDate>
+    <description>Nvidia's Jensen Huang returns as CEO after an affair-related exit: Huang apologised to staff at his first all-hands since returning as Nvidia's CEO and said he was grateful for a second chance. He also denied reports that the White House helped get him rehired, after the company's earlier investigation into his personal conduct drew scrutiny.
 
-AWS Lambda raises maximum timeout from 15 to 30 minutes: AWS now allows on-demand Lambda event functions to run for up to 30 minutes, up from a limit that had stood since 2018. The change applies in all commercial regions with no opt-in and no new pricing.
+Rust 1.100 stabilises the never type after a decade of work: Rust 1.100.0, released 12 November 2026, stabilises the never type (!) and makes Infallible an alias for it. It also stabilises the core of the allocator API, adds DropGuard, and adds an opt-in dependency cooldown setting for Cargo.
 
-Microsoft declares internal 'Code Red' after near-24-hour Outlook and Exchange Online outage: A nearly 24-hour Exchange Online and Outlook outage cut off email for millions of customers. Reuters reports Microsoft declared an unusual internal 'Code Red' in response, and internal memos describe an overhaul with one-hour recovery goals.</description>
+Microsoft declares internal 'Code Red' after near-24-hour Outlook and Exchange outage: Microsoft declared an unusual internal 'Code Red' after an Exchange Online and Outlook outage that lasted nearly 24 hours and disrupted email for millions of customers. The outage was traced to a bug that had been sitting on Microsoft 365 networking gateway servers.</description>
   </item>
 </channel>
 </rss>
