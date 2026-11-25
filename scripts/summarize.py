@@ -129,7 +129,8 @@ def validate(answer, items, n):
         if not ids or not head or not summ:
             continue
         out.append(dict(headline=head, summary=summ, why=why,
-                        sources=[dict(title=by_id[i]["title"], url=by_id[i]["url"], source=by_id[i]["source"]) for i in dict.fromkeys(ids)]))
+                        sources=[dict(title=by_id[i]["title"], url=by_id[i]["url"], source=by_id[i]["source"],
+                                     **({"image": by_id[i]["image"]} if by_id[i].get("image") else {})) for i in dict.fromkeys(ids)]))
     return out
 
 

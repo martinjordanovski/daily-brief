@@ -29,13 +29,13 @@ def main():
         except subprocess.CalledProcessError:
             log = f"previous checkpoint {last[:10]} is no longer in the history: was main force-pushed or rewritten?"
         if log:
-            report.append("Code that can read the API key changed since the last run:\n" + log)
+            report.append("Code that can call Claude changed since the last run:\n" + log)
     state["last_checked"] = head
     os.makedirs(os.path.dirname(STATE), exist_ok=True)
     json.dump(state, open(STATE, "w"), indent=1)
     out = os.environ.get("RUNNER_TEMP", "/tmp")
     with open(os.path.join(out, "tripwire.txt"), "w") as f:
-        f.write("\n".join(report))
+        f.write("\n".join(report) + ("\n" if report else ""))
     print("\n".join(report) or "tripwire: no changes to watched files")
 
 

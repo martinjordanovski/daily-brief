@@ -77,6 +77,32 @@ def text_of(el, *names):
     return "".join(c.itertext()) if c is not None else ""
 
 
+IMG_RE = re.compile(r"""<img[^>]+src=["']([^"']+)["']""", re.I)
+
+
+def find_image(el):
+    """Picture for the hover card: media:content/thumbnail, an image enclosure, or the first <img> in the text."""
+    for c in el.iter():
+        name = local(c.tag)
+        url = c.get("url") or (c.get("href") if name == "link" and c.get("rel") == "enclosure" else None)
+        if not url:
+            continue
+        kind = (c.get("type") or c.get("medium") or "").lower()
+        if name == "thumbnail" or (name in ("content", "enclosure", "link") and ("image" in kind or re.search(r"\.(jpe?g|png|webp|gif)(\?|$)", url, re.I))):
+            u = good_url(html.unescape(url))
+            if u:
+                return u
+    for name in ("encoded", "content", "description", "summary"):
+        c = child(el, name)
+        if c is not None:
+            m = IMG_RE.search("".join(c.itertext()) or "")
+            if m:
+                u = good_url(html.unescape(m.group(1)))
+                if u:
+                    return u
+    return None
+
+
 def rss(src):
     root = ET.fromstring(get(src["url"]))   # expat in current Python refuses external entities and entity bombs
     out = []
@@ -93,7 +119,8 @@ def rss(src):
             link = text_of(el, "link") or (child(el, "guid").text if child(el, "guid") is not None else "")
         out.append(dict(title=clean(text_of(el, "title"), 200), url=good_url(link),
                         published=parse_date(text_of(el, "pubdate", "published", "updated", "date")),
-                        snippet=clean(text_of(el, "description", "summary", "content", "encoded"), 320)))
+                        snippet=clean(text_of(el, "description", "summary", "content", "encoded"), 320),
+                        image=find_image(el)))
         if len(out) >= PER_SOURCE:
             break
     return out
@@ -127,6 +154,7 @@ def github_radar(src):
         if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repo):
             continue
         out.append(dict(title=clean(f"{repo}: {t.get('desc') or ''}", 200), url=f"https://github.com/{repo}",
+                        image=f"https://opengraph.githubassets.com/{last}/{repo}",
                         published=parse_date(snap.get("fetched")),
                         snippet=clean(f"+{t.get('gained') or 0} stars today on GitHub Trending, {t.get('total') or 0} in total. Language: {t.get('lang') or 'n/a'}.", 320)))
     return out
