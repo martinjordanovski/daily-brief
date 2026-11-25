@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated": "2026-11-25T14:29:38+01:00",
+ "generated": "2026-11-25T14:36:46+01:00",
  "model": "claude-haiku-5-5",
  "weekly": true,
  "top": [
@@ -24,9 +24,9 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Tidal to ban fully AI-generated music from December 9",
-     "summary": "Tidal will stop allowing fully AI-generated music on December 9 and will delete roughly 27 to 29 million such tracks. It expects to reject about 80,000 to 85,000 tracks per day, while still accepting AI-assisted songs.",
-     "why": "Streaming platforms are setting content-provenance rules for AI output, which matters to anyone building generation, detection, or labeling tools.",
+     "headline": "Tidal to ban AI-generated music from December 9, removing millions of tracks",
+     "summary": "Tidal will stop accepting fully AI-generated music on December 9 and delete a large catalogue of existing AI tracks, reportedly around 27 to 29 million. It will still allow songs made with AI assistance.",
+     "why": "Streaming platforms are setting policies on AI-generated content, which affects how teams build detection, labelling, and content moderation pipelines.",
      "sources": [
       {
        "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
@@ -48,22 +48,22 @@
      ]
     },
     {
-     "headline": "Anthropic's MCP SDK passes 700 million monthly downloads",
-     "summary": "Anthropic reports over 700 million monthly downloads of its MCP SDK, two years after launch. It is adding background tasks, follow-up questions for users, and file uploads to let Claude work more autonomously.",
-     "why": "MCP adoption at this scale makes its new agent features a practical target for teams building tool integrations.",
+     "headline": "Google releases Gemini 4 Neon, beating rivals on LiveBench",
+     "summary": "Google's Gemini 4 Neon is presented as a sign that Google DeepMind is back as a frontier lab. It reportedly outperforms Astra and Fable on LiveBench and cut a TypeScript-to-Rust benchmark's runtime by 48.6%.",
+     "why": "A new frontier model with reported coding gains may change which models teams evaluate and adopt for development work.",
      "sources": [
       {
-       "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
-       "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
-       "source": "The Decoder",
-       "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png"
+       "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+       "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+       "source": "Latent Space",
+       "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png"
       }
      ]
     },
     {
-     "headline": "Google DeepMind lets AI agents run some Gemini experiments",
-     "summary": "DeepMind is using AI agents to run experiments for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement, and it leaves the agents' chains of thought untrained so they can be reviewed.",
-     "why": "Agents running real research workloads raise practical questions about oversight and review that engineering leaders will face too.",
+     "headline": "DeepMind uses AI agents to run Gemini experiments, but says self-improvement is distant",
+     "summary": "Google DeepMind is using AI agents to run some experiments for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement. DeepMind leaves the agents' internal reasoning untrained so humans can review it.",
+     "why": "Using agents to run research workloads raises practical questions about oversight, review, and automation of experimentation for engineering teams.",
      "sources": [
       {
        "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
@@ -74,22 +74,9 @@
      ]
     },
     {
-     "headline": "Anthropic study finds many enterprise AI deployments deliver no value",
-     "summary": "An Anthropic study of nearly 300 AI deployments at 58 US companies found that about one in five delivers no business value. The main obstacles were heavy review workloads, internal bottlenecks, and employee resistance, which the researchers link to outdated company structures.",
-     "why": "The findings point to process and organisational bottlenecks, not tooling, as the main reason AI rollouts stall.",
-     "sources": [
-      {
-       "title": "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools",
-       "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
-       "source": "The Decoder",
-       "image": "https://the-decoder.com/wp-content/uploads/2026/11/ai_office_paper.png"
-      }
-     ]
-    },
-    {
-     "headline": "Amazon reports hackers' AI agents exploited a zero-day with little human input",
-     "summary": "Amazon says attackers used AI agents to find and exploit a zero-day vulnerability with minimal human involvement. The report describes the Cairn AI framework as useful to both defenders and attackers.",
-     "why": "Autonomous exploit discovery shortens the window between disclosure and attack, so patching speed matters more.",
+     "headline": "Amazon says attackers' AI agents found and exploited a zero-day with little human help",
+     "summary": "Amazon reports that hackers used AI agents to find and exploit a zero-day vulnerability with minimal human input. The Cairn AI framework is cited as useful to both defenders and attackers.",
+     "why": "Autonomous AI exploitation shortens the time defenders have to patch, so security practices and patch cadence need review.",
      "sources": [
       {
        "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
@@ -100,15 +87,34 @@
      ]
     },
     {
-     "headline": "Anthropic makes Claude Artifacts installable as desktop apps",
-     "summary": "Anthropic now lets users install Claude Artifacts as desktop apps on macOS and Windows, with a free account enough to do so. Users can build them in chat without writing code, and the apps can add menu bar items, send notifications, and create transparent windows.",
-     "why": "Turning chat-built artifacts into native apps lowers the barrier for building small internal tools without a developer.",
+     "headline": "Anthropic study finds nearly one in five enterprise AI deployments deliver no business value",
+     "summary": "An Anthropic study of nearly 300 AI deployments across 58 US companies found that about one in five still produce no business value. The researchers blame heavy review workloads, internal bottlenecks, employee resistance, and outdated company structures rather than the tools themselves.",
+     "why": "The findings suggest that process, review capacity, and team structure often limit AI returns more than tool skill, which matters to engineering leaders planning rollouts.",
      "sources": [
       {
-       "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
-       "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
+       "title": "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools",
+       "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
        "source": "The Decoder",
-       "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_neon.png"
+       "image": "https://the-decoder.com/wp-content/uploads/2026/11/ai_office_paper.png"
+      }
+     ]
+    },
+    {
+     "headline": "Anthropic researcher stands by AI-assisted Riemann proof but retracts parts of the rollout",
+     "summary": "Anthropic researcher Levent Alpöge says he still stands by the math in his AI-assisted proof of the generalized Riemann hypothesis. He walks back parts of the announcement, including a claimed 250,000-page length, which he called a joke, and says the published Lean code is poor.",
+     "why": "It is a useful reminder to verify AI-generated formal proofs and code artifacts before trusting the claims made about them.",
+     "sources": [
+      {
+       "title": "Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout",
+       "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/11/alpoege_riemann.png"
+      },
+      {
+       "title": "What's going on with the Riemann hypothesis?",
+       "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+       "source": "Ars Technica AI",
+       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-1152x648.jpeg"
       }
      ]
     }
@@ -120,9 +126,9 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Java4Shell: Oracle and OpenJDK ship fixes for a HotSpot Base64 decoder flaw",
-     "summary": "Oracle and the OpenJDK project released fixes on November 17 for CVE-2026-114938, a memory corruption bug in the HotSpot JVM's Base64 decoder. JetBrains is urging users to update its IDEs and related tools.",
-     "why": "Any Java service or developer tool running an affected JVM may need patching now, and the bug sits in a widely used runtime component.",
+     "headline": "Java4Shell: Oracle and OpenJDK ship fixes for a HotSpot JVM Base64 flaw",
+     "summary": "On November 17, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a memory corruption bug in the HotSpot JVM's Base64 decoder, reported by Calif and dubbed Java4Shell. JetBrains is urging users to update its IDEs and related tools.",
+     "why": "Any team running Java workloads or JVM-based developer tools needs to patch promptly to close a memory corruption flaw.",
      "sources": [
       {
        "title": "Java4Shell Vulnerability: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now",
@@ -134,8 +140,8 @@
     },
     {
      "headline": "Active intrusion campaign targets Check Point security management servers",
-     "summary": "An ongoing intrusion campaign is targeting Check Point security management servers. The story drew substantial discussion on Hacker News.",
-     "why": "Management servers control security appliances across many networks, so a compromise there can expose a lot of downstream infrastructure.",
+     "summary": "A Hacker News discussion highlights an ongoing intrusion campaign against Check Point security management servers, which drew substantial attention from the developer community.",
+     "why": "Security management servers control firewall policy, so an active campaign against them is a risk for any organisation that relies on Check Point.",
      "sources": [
       {
        "title": "Active intrusion campaign against Check Point security management servers",
@@ -146,9 +152,9 @@
      ]
     },
     {
-     "headline": "AWS doubles Lambda maximum timeout to 30 minutes",
-     "summary": "AWS raised the maximum timeout for on-demand Lambda event functions from 15 to 30 minutes in all commercial regions, with no opt-in and no new pricing. The limit had stood since 2018.",
-     "why": "Jobs that were split across functions or workflow steps only to fit the old limit may now run in a single invocation, which changes architecture choices.",
+     "headline": "AWS doubles Lambda maximum timeout to 30 minutes in all commercial regions",
+     "summary": "AWS raised the maximum timeout for on-demand Lambda event functions from 15 to 30 minutes, with no opt-in and no new pricing. AWS also notes the change doubles concurrency at the same request rate and affects SQS and Kafka event source settings.",
+     "why": "The longer limit changes which workloads fit Lambda, but teams should re-check concurrency and event source timeouts before relying on it.",
      "sources": [
       {
        "title": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
@@ -164,9 +170,9 @@
      ]
     },
     {
-     "headline": "Rust 1.100 stabilises the never type after a decade of work",
-     "summary": "Rust 1.100.0, released on November 12, stabilises the never type (!) and makes Infallible an alias for it. It also stabilises the core of the allocator API and adds an opt-in dependency cooldown setting for Cargo.",
-     "why": "The cooldown setting lets teams delay pulling newly published dependency versions, a practical supply-chain control.",
+     "headline": "Rust 1.100 stabilises the never type and core allocator API",
+     "summary": "Rust 1.100.0, released November 12, stabilises the never type after a decade of work and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds DropGuard, and adds an opt-in dependency cooldown setting to Cargo.",
+     "why": "The Cargo cooldown setting and stable allocator core give library and tooling authors new options for supply chain safety and custom memory management.",
      "sources": [
       {
        "title": "Rust 1.100 Ships the Never Type After Ten Years and Five Failed Attempts",
@@ -178,8 +184,8 @@
     },
     {
      "headline": "OpenAI details Pando, a Git backend built for concurrent coding agents",
-     "summary": "OpenAI described Pando, a new backend that scales Git for many concurrent coding-agent workloads while keeping standard Git workflows. The company reports nearly 80% lower median push latency.",
-     "why": "Teams running many AI agents against shared repositories may hit contention, and this points to where the infrastructure load will show up.",
+     "summary": "OpenAI has described Pando, a new backend that scales Git for concurrent coding-agent workloads while keeping standard Git workflows. The company reports nearly 80% lower median push latency, achieved by coordinating branch updates independently and reusing stored packfiles across fetches.",
+     "why": "As agents push code in parallel, Git server throughput becomes a bottleneck, and this shows one approach that keeps existing workflows intact.",
      "sources": [
       {
        "title": "OpenAI Scales Git for Coding Agents with Pando",
@@ -197,9 +203,9 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Microsoft declares internal 'Code Red' after nearly 24-hour Outlook outage",
-     "summary": "Microsoft has declared an unusual internal 'Code Red' after a nearly 24-hour Exchange Online and Outlook outage this month. A bug on Microsoft 365 networking gateway servers took email down for millions of customers.",
-     "why": "A single bug in shared networking infrastructure can take down a major service for a day, which is a useful reminder for anyone running large platforms.",
+     "headline": "Microsoft declares internal 'Code Red' after near-24-hour Outlook outage",
+     "summary": "An Exchange Online and Outlook outage this month took email down for millions of customers for nearly a day. Reuters reports Microsoft responded by declaring an unusual internal \"Code Red\" after a bug on Microsoft 365 networking gateway servers triggered it.",
+     "why": "It is a reminder that a single fault in shared networking infrastructure can disrupt email for millions, and that incident response and gateway reliability matter for any…",
      "sources": [
       {
        "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
@@ -210,9 +216,22 @@
      ]
     },
     {
-     "headline": "Huawei found guilty of stealing US trade secrets, including source code",
-     "summary": "A federal jury in New York found Huawei guilty of stealing US trade secrets, including source code and proprietary technology from several companies. The BBC reports it was acquitted of racketeering charges.",
-     "why": "The verdict puts a spotlight on source code theft and how companies protect proprietary code from misappropriation.",
+     "headline": "VMware ships third critical patch bundle in a week, with four more critical flaws",
+     "summary": "VMware released another set of patches with four critical vulnerabilities, including a further unauthorized access flaw in vCenter. It is the third critical patch bundle in roughly a week.",
+     "why": "Teams running vCenter and other VMware infrastructure need to schedule emergency patching quickly, especially around holiday change freezes.",
+     "sources": [
+      {
+       "title": "This could mess with Thanksgiving, says VMware as it drops third critical patch bundle in a week",
+       "url": "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+       "source": "The Register",
+       "image": "https://image.theregister.com/?imageId=225492&width=800"
+      }
+     ]
+    },
+    {
+     "headline": "US jury finds Huawei guilty of stealing trade secrets but acquits it of racketeering",
+     "summary": "A federal jury in New York found Huawei guilty of stealing US trade secrets, including source code and proprietary technology from several companies. It cleared the company of racketeering charges.",
+     "why": "The verdict centres on source code theft, which matters to engineering leaders thinking about IP protection and the legal risks of vendor and employee code handling.",
      "sources": [
       {
        "title": "Huawei found guilty of stealing trade secrets",
@@ -241,41 +260,32 @@
      ]
     },
     {
-     "headline": "Matrix multiplication paper claims a Θ(n^2.25) bound and draws wide interest",
-     "summary": "A paper titled 'Matrix Multiplication is Θ(n^2.25)' has become a major discussion on Hacker News, with several hundred points and many comments. The item provides no further detail beyond the paper's title and reception.",
-     "why": "Matrix multiplication sits under many machine learning and numerical workloads, though real-world speedups depend heavily on constant factors.",
+     "headline": "Nvidia shares fall 7% as scrutiny grows over Jensen Huang's reinstatement",
+     "summary": "Nvidia's share price dropped 7% as lawmakers pressed the US attorney general about an investigation and about President Trump's involvement in Jensen Huang's reinstatement. Trump has reportedly said a pardon for Huang is 'an option'.",
+     "why": "Government scrutiny of a dominant chip supplier could affect GPU availability, pricing and export-compliance obligations for teams that depend on it.",
+     "sources": [
+      {
+       "title": "US attorney general dodges questions about Nvidia investigation",
+       "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+       "source": "BBC Technology",
+       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/067a/live/dc6baca0-e839-11f1-a094-5fdc692f3e33.png"
+      },
+      {
+       "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+       "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+       "source": "TechCrunch"
+      }
+     ]
+    },
+    {
+     "headline": "New paper claims matrix multiplication can be done in Θ(n^2.25) operations",
+     "summary": "A paper widely shared among developers reports a matrix multiplication complexity of Θ(n^2.25). It drew a large discussion on Hacker News.",
+     "why": "Improvements to matrix multiplication bounds can eventually influence the algorithms behind numerical libraries and machine learning workloads, though practical gains usually…",
      "sources": [
       {
        "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
        "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-       "source": "Hacker News",
-       "image": "https://opengraph.githubassets.com/c1d65b83717c15083b30a2a5af7073dac57672002e13b2256a75b756420e0b69/openai/math"
-      }
-     ]
-    },
-    {
-     "headline": "VMware ships third critical patch bundle in a week, including vCenter flaw",
-     "summary": "VMware has released its third critical patch bundle in a week, covering four more critical vulnerabilities. One of them is another unauthorised access flaw in vCenter.",
-     "why": "Teams running vCenter should prioritise these patches now, even with holiday change freezes getting in the way.",
-     "sources": [
-      {
-       "title": "This could mess with Thanksgiving, says VMware as it drops third critical patch bundle in a week",
-       "url": "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
-       "source": "The Register",
-       "image": "https://image.theregister.com/?imageId=225492&width=800"
-      }
-     ]
-    },
-    {
-     "headline": "Australia nears passage of Digital Duty of Care Bill with large fines for platforms",
-     "summary": "Australian lawmakers are close to passing the Digital Duty of Care Bill, an amendment to the Online Safety Act 2021. The bill could result in massive fines for tech platforms.",
-     "why": "Platforms serving Australian users may need to review safety features, moderation and compliance processes before the law takes effect.",
-     "sources": [
-      {
-       "title": "Australia to pass safety bill that could result in massive fines for tech platforms",
-       "url": "https://www.engadget.com/2327499/australia-to-pass-safety-bill-that-could-result-in-massive-fines-for-tech-platforms/",
-       "source": "Engadget",
-       "image": "https://www.engadget.com/img/gallery/australia-to-pass-safety-bill-that-could-result-in-massive-fines-for-tech-platforms/l-intro-1795562364.jpg"
+       "source": "Hacker News"
       }
      ]
     }
@@ -287,9 +297,9 @@
    "cadence": "daily",
    "stories": [
     {
-     "headline": "Claude-BugHunter repo trends with 84 skills for bug hunting and red-team work",
-     "summary": "A Python skill bundle for Claude Code aimed at bug hunting and external red-team work, with 84 skills and 15 slash commands. It gained about 1,800 stars today. Its coverage claims are not independently verified.",
-     "why": "It shows strong developer interest in AI agents for security testing, a dual-use area where teams should check scope and authorisation.",
+     "headline": "Claude-BugHunter skill bundle tops GitHub Trending with 1,800+ stars in a day",
+     "summary": "A Python repo offering a Claude Code skill bundle for bug hunting and external red-team work gained about 1,800 stars today. It includes 84 skills, 15 slash commands and 681 disclosed-report patterns. Star counts show interest, not proven results.",
+     "why": "It shows strong developer demand for AI agents that automate security research, which teams may need to evaluate for both defence and misuse.",
      "sources": [
       {
        "title": "elementalsouls/Claude-BugHunter: A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerabilit",
@@ -301,8 +311,8 @@
     },
     {
      "headline": "CLI-Anything pitches agent-native command lines for all software",
-     "summary": "The project, titled \"Making ALL Software Agent-Native\", includes a CLI-Hub and gained about 1,070 stars today. It is trending rather than a proven standard.",
-     "why": "It reflects a push to make existing tools directly usable by AI agents, which could change how teams expose internal software.",
+     "summary": "The HKUDS project CLI-Anything, which aims to make any software usable by AI agents through a command-line layer, added about 1,070 stars today. It also points to a CLI-Hub. The approach is still early and the claims are not yet independently proven.",
+     "why": "If agents can drive existing tools through CLIs, teams may need to rethink how internal tools are exposed and secured.",
      "sources": [
       {
        "title": "HKUDS/CLI-Anything: \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
@@ -313,9 +323,9 @@
      ]
     },
     {
-     "headline": "obra/superpowers, an agentic skills framework, adds about 1,000 stars today",
-     "summary": "The Shell-based project offers a framework of agentic skills and a software development methodology. It has about 326,000 stars in total and gained roughly 1,000 today.",
-     "why": "Its popularity shows where developer attention is moving: structured methods for coding agents rather than single prompts.",
+     "headline": "Superpowers agentic skills framework keeps climbing GitHub Trending",
+     "summary": "The obra/superpowers repo, which describes itself as an agentic skills framework and software development methodology, gained about 1,000 stars today and has over 320,000 in total. The popularity is clear, but its real-world impact on productivity is not established.",
+     "why": "Structured methods for coding agents are becoming a common topic for engineering leads deciding how their teams work with AI.",
      "sources": [
       {
        "title": "obra/superpowers: An agentic skills framework & software development methodology that works.",
@@ -326,9 +336,9 @@
      ]
     },
     {
-     "headline": "Firecrawl pitches one API to search and scrape 550+ data providers for agents",
-     "summary": "The TypeScript project offers search, scraping and access to more than 550 data providers through a single API. It gained about 991 stars today.",
-     "why": "Data access layers for agents are a crowded, fast-moving category, so teams building agent pipelines may weigh build-versus-buy choices.",
+     "headline": "Firecrawl pitches one API for agent search, scraping and 550+ data providers",
+     "summary": "Firecrawl describes itself as knowledge infrastructure that lets agents search, scrape and access over 550 data providers through a single API. It gained about 990 stars today and has around 209,000 in total. The claims are the project's own.",
+     "why": "Agents depend on reliable data access, so teams are weighing whether to buy a managed layer or build their own pipelines.",
      "sources": [
       {
        "title": "firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
@@ -339,15 +349,15 @@
      ]
     },
     {
-     "headline": "Cursor publishes a plugin specification and official plugins on GitHub",
-     "summary": "The repository contains the Cursor plugin specification and official plugins. It gained about 360 stars today.",
-     "why": "A public plugin spec may become a format other editor and agent tools follow, which matters to teams writing extensions.",
+     "headline": "minimind claims a 64M-parameter LLM can be trained from scratch in two hours",
+     "summary": "The minimind repo, with bilingual docs, promises to train a 64-million-parameter language model from scratch in about two hours. It added roughly 730 stars today. This is a small educational-scale demo, not a comparison with production models.",
+     "why": "It lowers the perceived cost of learning how LLMs are built, which can help engineers understand model training without large budgets.",
      "sources": [
       {
-       "title": "cursor/plugins: Cursor plugin specification and official plugins",
-       "url": "https://github.com/cursor/plugins",
+       "title": "jingyaogong/minimind: 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+       "url": "https://github.com/jingyaogong/minimind",
        "source": "GitHub Trending",
-       "image": "https://opengraph.githubassets.com/2026-11-25/cursor/plugins"
+       "image": "https://opengraph.githubassets.com/2026-11-25/jingyaogong/minimind"
       }
      ]
     }
@@ -359,9 +369,22 @@
    "cadence": "weekly",
    "stories": [
     {
-     "headline": "JetBrains CEO predicts the end of manual code review within two years",
-     "summary": "JetBrains' CEO gives manual code review about two years before it fades, according to a LeadDev piece. The article asks whether human review of code is ending.",
-     "why": "If AI tooling takes over review, engineering leaders will need to rethink review policies, accountability, and how they train junior engineers.",
+     "headline": "Less experienced developers place more trust in AI, eroding code ownership",
+     "summary": "LeadDev reports that code ownership is eroding because less experienced developers tend to trust AI output more. The piece treats this as a shift in how teams take responsibility for code.",
+     "why": "Leads need to decide how review and accountability work when AI-written code is merged by people who may not fully understand it.",
+     "sources": [
+      {
+       "title": "Code ownership is eroding",
+       "url": "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS",
+       "source": "LeadDev",
+       "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/09/statue.png"
+      }
+     ]
+    },
+    {
+     "headline": "JetBrains CEO gives manual code review two years",
+     "summary": "LeadDev reports that JetBrains' CEO predicts manual code review will end within about two years. The claim points to AI taking over review work.",
+     "why": "Engineering managers will need to plan review processes, tooling and skill development around a possible move away from manual review.",
      "sources": [
       {
        "title": "The end of manual code review?",
@@ -372,15 +395,15 @@
      ]
     },
     {
-     "headline": "LeadDev reports code ownership is eroding as developers trust AI more",
-     "summary": "A LeadDev article says less experienced developers place more trust in AI, and that code ownership is eroding as a result.",
-     "why": "Weaker ownership can make incidents harder to trace and review quality harder to maintain, so team leads need to address it directly.",
+     "headline": "Will Larson merges 170 PRs in a seven-day window",
+     "summary": "Will Larson describes shipping over 100 pull requests to production in one week, reaching 115 in the week of November 9. His highest seven-day stretch reached 170 merged PRs.",
+     "why": "The account gives leaders a concrete example of very high delivery throughput and what it takes to reach it, which is useful when setting team output expectations.",
      "sources": [
       {
-       "title": "Code ownership is eroding",
-       "url": "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS",
-       "source": "LeadDev",
-       "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/09/statue.png"
+       "title": "Shipping 100+ PRs to production in a week",
+       "url": "https://lethain.com/passing-100-prs-in-a-week/",
+       "source": "Irrational Exuberance (Will Larson)",
+       "image": "https://lethain.com/static/blog/2027/prs-per-week-2026.png"
       }
      ]
     }
@@ -393,8 +416,8 @@
    "stories": [
     {
      "headline": "Cannabis users develop psychosis about 2.5 years earlier, with the gap widening with age",
-     "summary": "A meta-analysis of 149 studies found cannabis users developed psychosis on average 2.5 years earlier than non-users. The gap grew to more than six years among adults aged 30 and older.",
-     "why": "Suggests cannabis-related psychiatric risk may build up over time, which is relevant to workplace wellbeing and health policy discussions.",
+     "summary": "A meta-analysis of 149 studies found cannabis users developed psychosis on average 2.5 years earlier than non-users. Among adults 30 and older, the gap grew to more than six years, and researchers warn the risks may build up over time.",
+     "why": "Adds weight to evidence on cannabis and mental health, relevant to leaders setting wellbeing and substance policies for their teams.",
      "sources": [
       {
        "title": "Cannabis users develop psychosis years earlier, and the gap grows with age",
@@ -405,41 +428,41 @@
      ]
     },
     {
-     "headline": "Childhood emotional abuse linked more strongly to adult mental illness than physical or sexual abuse",
-     "summary": "A Psychological Bulletin analysis of 104 studies found that childhood emotional abuse is associated with adult mental illness more strongly than physical or sexual abuse. The authors argue it is often underestimated because it leaves no visible marks.",
-     "why": "Points to emotional mistreatment as a serious harm, relevant to leaders shaping psychological safety and team culture.",
+     "headline": "Researchers identify 'circadian depression', a subtype tied to the body's internal clock",
+     "summary": "Researchers describe a new depression subtype linked to the body's internal clock, which they say may affect nearly one in four people with severe, recurrent or persistent depression. It is associated with night-owl tendencies, excess sleep and persistent exhaustion, and common antidepressants may work poorly for it.",
+     "why": "Links sleep timing to a depression type that may need different treatment, relevant to people on shift-heavy or on-call schedules.",
+     "sources": [
+      {
+       "title": "Scientists discover a new type of depression that common antidepressants struggle to treat",
+       "url": "https://www.sciencedaily.com/releases/2026/11/261123005352.htm",
+       "source": "ScienceDaily: Mind & Brain",
+       "image": "https://www.sciencedaily.com/images/1920/happy-and-sad-smiley-faces-depression.webp"
+      }
+     ]
+    },
+    {
+     "headline": "Problematic smartphone use predicts attention problems rebounding in late adolescence",
+     "summary": "A study tracking thousands of teenagers found attention symptoms tend to fall in early adolescence and then rebound as adulthood approaches. Struggling to control smartphone use reliably predicted worse behavioural problems over time.",
+     "why": "Relevant to teams building notification-heavy products and to leaders thinking about device norms for young staff and interns.",
+     "sources": [
+      {
+       "title": "Problematic smartphone use predicts a rebound in attention issues during late adolescence",
+       "url": "https://www.psypost.org/problematic-smartphone-use-predicts-a-rebound-in-attention-issues-during-late-ad/",
+       "source": "PsyPost",
+       "image": "https://www.psypost.org/wp-content/uploads/2025/05/teen-girl-using-smartphone.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Childhood emotional abuse linked to adult mental illness more strongly than physical abuse",
+     "summary": "A Psychological Bulletin analysis of 104 studies found childhood emotional abuse is linked to adult mental illness more strongly than physical or sexual abuse. Emotional harm is often dismissed because it leaves no visible marks.",
+     "why": "Highlights how the emotional climate people grow up in shapes later mental health, a useful frame for leaders building psychologically safe teams.",
      "sources": [
       {
        "title": "Childhood emotional abuse linked to adult mental health struggles more strongly than physical or sexual abuse",
        "url": "https://www.psypost.org/childhood-emotional-abuse-linked-to-adult-mental-health-struggles-more-strongly-than-physical-or-sexual-abuse/",
        "source": "PsyPost",
        "image": "https://www.psypost.org/wp-content/uploads/2024/08/sad-girl.jpg"
-      }
-     ]
-    },
-    {
-     "headline": "Pooled data from 362 studies examines how aging changes personality",
-     "summary": "Researchers pooled 362 studies covering nearly 400,000 people to test whether life makes personalities more alike or pushes them further apart with age. The item reports the question was tested but does not give the full answer.",
-     "why": "Provides a large-scale baseline on how personality shifts over a lifetime, useful context for long-term team planning.",
-     "sources": [
-      {
-       "title": "Psychologists pooled 80 years of data to answer a basic question about what aging does to our personalities",
-       "url": "https://www.psypost.org/psychologists-pooled-80-years-of-data-to-answer-a-basic-question-about-what-aging-does-to-our-personalities/",
-       "source": "PsyPost",
-       "image": "https://www.psypost.org/wp-content/uploads/2026/11/woman-aging.jpg"
-      }
-     ]
-    },
-    {
-     "headline": "Ritalin reduces cheating in healthy adults when no one is watching",
-     "summary": "In a double-blind experiment, healthy adults given the ADHD stimulant methylphenidate cheated noticeably less when they were unobserved. This is a single study, so the result should be treated as preliminary.",
-     "why": "Shows that drug effects can extend beyond their intended use, a reminder to treat single experiments on performance enhancers with caution.",
-     "sources": [
-      {
-       "title": "Popular “smart drug” Ritalin unexpectedly curbs dishonesty in healthy adults",
-       "url": "https://www.psypost.org/popular-smart-drug-ritalin-unexpectedly-curbs-dishonesty-in-healthy-adults/",
-       "source": "PsyPost",
-       "image": "https://www.psypost.org/wp-content/uploads/2026/11/holding-a-pill.jpg"
       }
      ]
     }
@@ -451,9 +474,27 @@
    "cadence": "weekly",
    "stories": [
     {
-     "headline": "Dell beats earnings on AI server demand and authorizes $25 billion buyback",
-     "summary": "Dell's third-quarter overall sales more than doubled year on year, driven by demand for AI servers. The company also authorized a $25 billion share buyback.",
-     "why": "Strong AI server demand signals continued spending on AI infrastructure, which shapes hardware supply and pricing for teams running AI workloads.",
+     "headline": "Lenders grow pickier as AI borrowing surges, raising doubts over Anthropic debt",
+     "summary": "Lenders are becoming more selective about corporate bonds as AI companies borrow heavily. Big Tech may find it harder to fund the AI build-out, and there are doubts about whether Anthropic's debt would be rated as junk.",
+     "why": "Access to debt and its cost can determine how fast AI providers and their cloud customers can expand compute capacity.",
+     "sources": [
+      {
+       "title": "Anthropic faces junk-debt doubts as AI borrowing surges",
+       "url": "https://seekingalpha.com/news/4676561-anthropic-faces-junk-debt-doubts-as-ai-borrowing-surges?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+       "source": "Seeking Alpha Market News"
+      },
+      {
+       "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+       "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+       "source": "CNBC",
+       "image": "https://image.cnbcfm.com/api/v1/image/107417946-1716311561256-gettyimages-2131329168-April_3_2024_Krakow_AI_logoes-9.jpeg?v=1727274261&w=1920&h=1080"
+      }
+     ]
+    },
+    {
+     "headline": "Dell's quarterly sales more than double on AI server demand; $25B buyback approved",
+     "summary": "Dell beat its third-quarter earnings expectations, with overall sales more than doubling year on year on AI server demand. The company also authorized a $25 billion share buyback.",
+     "why": "Strong AI server demand signals that infrastructure spending is still growing, which matters for teams planning hardware and cloud capacity.",
      "sources": [
       {
        "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
@@ -469,51 +510,38 @@
      ]
     },
     {
-     "headline": "Nvidia reinstates Jensen Huang as CEO after Trump pressure, drawing scrutiny",
-     "summary": "Nvidia brought back CEO Jensen Huang, who had resigned after reports of multiple affairs, following pressure from President Trump. The move has intensified bipartisan scrutiny of tech companies' ties to the administration.",
-     "why": "Leadership instability at the largest AI chip supplier and rising political scrutiny could affect product roadmaps and access to Nvidia hardware.",
+     "headline": "US proposes new tariffs on 14 trading partners, including China and the EU",
+     "summary": "The US has proposed new levies on 14 trading partners, including China and the EU, aimed at trade practices it considers unfair or burdensome. The plan follows a Supreme Court ruling earlier this year that struck down broader Trump tariffs.",
+     "why": "Tariffs can raise the cost of servers, devices and components, and may force changes to hardware sourcing and supply chains.",
      "sources": [
       {
-       "title": "Trump’s meddling in Huang scandal reignites voter angst over tech’s outsized political power",
-       "url": "https://www.cnbc.com/2026/11/25/huang-reinstatement-reignites-voter-angst-over-techs-outsized-power.html",
-       "source": "CNBC",
-       "image": "https://image.cnbcfm.com/api/v1/image/108476949-1793221677813-gettyimages-2302436271-kbd11644_3qp4ciac.jpeg?v=1793754912&w=1920&h=1080"
+       "title": "U.S. proposes fresh tariffs on China, others as Trump doubles down on his favorite trade weapon",
+       "url": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
+       "source": "MarketWatch",
+       "image": "https://images.mktw.net/im-17174473"
       },
       {
-       "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
-       "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
-       "source": "CNBC"
-      },
-      {
-       "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
-       "url": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+       "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+       "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
        "source": "CNBC"
       }
      ]
     },
     {
-     "headline": "Lenders grow pickier on corporate bonds, making AI debt funding harder for Big Tech",
-     "summary": "Big Tech may find it increasingly difficult to raise funding from debt markets, which are critical to the AI build-out, as lenders become more selective over corporate bonds.",
-     "why": "Tighter credit for large cloud and AI providers could slow infrastructure expansion and influence the pricing and availability of AI platforms.",
+     "headline": "Preferred US inflation gauge rises to 3.8% in October; December rate hike seen likely",
+     "summary": "The Fed's preferred inflation measure reportedly accelerated to 3.8% in October, and a rate hike in December is now considered likely. Higher borrowing costs would arrive heading into the holiday season.",
+     "why": "Higher rates raise the cost of capital for startups and can slow hiring and funding decisions for engineering teams.",
      "sources": [
       {
-       "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
-       "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+       "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
+       "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
        "source": "CNBC",
-       "image": "https://image.cnbcfm.com/api/v1/image/107417946-1716311561256-gettyimages-2131329168-April_3_2024_Krakow_AI_logoes-9.jpeg?v=1727274261&w=1920&h=1080"
-      }
-     ]
-    },
-    {
-     "headline": "Meta says its Muse AI agent is lifting ad business through Instagram",
-     "summary": "Meta does not show ads inside its Muse personal AI agent, but a senior executive told CNBC the tool is already boosting the company's advertising business.",
-     "why": "It shows how consumer AI assistants can feed revenue indirectly, which may shape how companies fund and prioritise their own agent products.",
-     "sources": [
+       "image": "https://image.cnbcfm.com/api/v1/image/108361509-1789075754512-gettyimages-2294573112-l1082579_copy_ud26kegt.jpeg?v=1789075971&w=1920&h=1080"
+      },
       {
-       "title": "How Meta is using Instagram to get an ad boost from its Muse personal AI agent",
-       "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
-       "source": "CNBC",
-       "image": "https://image.cnbcfm.com/api/v1/image/108372027-1790964949550-gettyimages-2296314757-META_CONNECT.jpeg?v=1790964985&w=1920&h=1080"
+       "title": "The Fed is likely to raise rates in December. What it means for your holiday spending",
+       "url": "https://www.cnbc.com/2026/11/25/fed-december-rate-hike-consumer-impact.html",
+       "source": "CNBC"
       }
      ]
     }

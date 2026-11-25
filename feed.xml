@@ -9,12 +9,12 @@
     <title>Daily brief, 25 Nov 2026</title>
     <link>https://martinjordanovski.com/daily-brief/#2026-11-25</link>
     <guid isPermaLink="false">daily-brief-2026-11-25</guid>
-    <pubDate>Wed, 25 Nov 2026 14:29:38 +0100</pubDate>
-    <description>Tidal to ban fully AI-generated music from December 9: Tidal will stop allowing fully AI-generated music on December 9 and will delete roughly 27 to 29 million such tracks. It expects to reject about 80,000 to 85,000 tracks per day, while still accepting AI-assisted songs.
+    <pubDate>Wed, 25 Nov 2026 14:36:46 +0100</pubDate>
+    <description>Tidal to ban AI-generated music from December 9, removing millions of tracks: Tidal will stop accepting fully AI-generated music on December 9 and delete a large catalogue of existing AI tracks, reportedly around 27 to 29 million. It will still allow songs made with AI assistance.
 
-Java4Shell: Oracle and OpenJDK ship fixes for a HotSpot Base64 decoder flaw: Oracle and the OpenJDK project released fixes on November 17 for CVE-2026-114938, a memory corruption bug in the HotSpot JVM's Base64 decoder. JetBrains is urging users to update its IDEs and related tools.
+Java4Shell: Oracle and OpenJDK ship fixes for a HotSpot JVM Base64 flaw: On November 17, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a memory corruption bug in the HotSpot JVM's Base64 decoder, reported by Calif and dubbed Java4Shell. JetBrains is urging users to update its IDEs and related tools.
 
-Microsoft declares internal 'Code Red' after nearly 24-hour Outlook outage: Microsoft has declared an unusual internal 'Code Red' after a nearly 24-hour Exchange Online and Outlook outage this month. A bug on Microsoft 365 networking gateway servers took email down for millions of customers.</description>
+Microsoft declares internal 'Code Red' after near-24-hour Outlook outage: An Exchange Online and Outlook outage this month took email down for millions of customers for nearly a day. Reuters reports Microsoft responded by declaring an unusual internal "Code Red" after a bug on Microsoft 365 networking gateway servers triggered it.</description>
   </item>
 </channel>
 </rss>
