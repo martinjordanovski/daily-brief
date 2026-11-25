@@ -72,6 +72,6 @@ jobs:
         run: |
           if [ -s "$RUNNER_TEMP/tripwire.txt" ]; then
             cat "$RUNNER_TEMP/tripwire.txt"
-            echo "::error::Watched files changed since the last run. If these commits are not yours, revoke the API key now."
+            echo "::error::Watched files changed since the last run. If these commits are not yours, disable the federation rule in the Claude Console (Settings > Workload identity) now."
             exit 1
           fi

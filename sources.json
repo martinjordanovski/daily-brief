@@ -280,18 +280,8 @@
         },
         {
           "type": "rss",
-          "name": "Harvard Business Review",
-          "url": "https://feeds.hbr.org/harvardbusiness"
-        },
-        {
-          "type": "rss",
           "name": "LeadDev",
           "url": "https://leaddev.com/rss.xml"
-        },
-        {
-          "type": "rss",
-          "name": "First Round Review",
-          "url": "https://review.firstround.com/feed"
         },
         {
           "type": "rss",
@@ -345,11 +335,6 @@
           "type": "rss",
           "name": "APS Psychological Science",
           "url": "https://www.psychologicalscience.org/feed"
-        },
-        {
-          "type": "rss",
-          "name": "BPS Research Digest",
-          "url": "https://www.bps.org.uk/research-digest/rss.xml"
         }
       ]
     },
@@ -371,23 +356,8 @@
         },
         {
           "type": "rss",
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/news/rssindex"
-        },
-        {
-          "type": "rss",
           "name": "Seeking Alpha Market News",
           "url": "https://seekingalpha.com/market_currents.xml"
-        },
-        {
-          "type": "rss",
-          "name": "Investopedia News",
-          "url": "https://www.investopedia.com/feedbuilder/feed/getfeed/?feedName=rss_headline"
-        },
-        {
-          "type": "rss",
-          "name": "Fortune Finance",
-          "url": "https://fortune.com/section/finance/feed/"
         }
       ]
     }
