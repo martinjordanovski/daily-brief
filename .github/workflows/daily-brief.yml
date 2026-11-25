@@ -10,9 +10,11 @@ on:
         type: boolean
         default: false
 
-# Only what the job needs: push the brief. No access to issues, packages, actions, etc.
+# Only what the job needs: push the brief, and ask GitHub for a short-lived identity token
+# that Anthropic swaps for a ~10-minute access token (no API key stored anywhere).
 permissions:
   contents: write
+  id-token: write
 
 concurrency:
   group: daily-brief
@@ -37,12 +39,15 @@ jobs:
         working-directory: repo
         run: python3 scripts/fetch.py
 
-      # The API key exists only in this one step.
+      # Keyless: these IDs are not secrets. The federation rule in the Claude Console only accepts
+      # tokens from this repo's main branch, and the workspace has a $10 monthly limit.
       - name: Summarize
         if: ${{ !inputs.check_only }}
         working-directory: repo
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_FEDERATION_RULE_ID: ${{ vars.ANTHROPIC_FEDERATION_RULE_ID }}
+          ANTHROPIC_ORGANIZATION_ID: ${{ vars.ANTHROPIC_ORGANIZATION_ID }}
+          ANTHROPIC_WORKSPACE_ID: ${{ vars.ANTHROPIC_WORKSPACE_ID }}
         run: python3 scripts/summarize.py
 
       - name: Commit
