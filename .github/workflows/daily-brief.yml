@@ -56,6 +56,12 @@ jobs:
           ANTHROPIC_WORKSPACE_ID: ${{ vars.ANTHROPIC_WORKSPACE_ID }}
         run: python3 scripts/summarize.py
 
+      # Latest YouTube Shorts and Medium articles for the "From Martin" strip (public feeds, no AI call)
+      - name: From Martin
+        if: ${{ !inputs.check_only }}
+        working-directory: repo
+        run: python3 scripts/martin.py || echo "From Martin skipped"
+
       - name: Commit
         if: ${{ !inputs.check_only }}
         working-directory: repo
