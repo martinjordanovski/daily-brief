@@ -113,6 +113,8 @@ def main():
                     p["image"] = good_url(meta.get("og:image"))
                 if not p.get("published") and meta.get("article:published_time"):
                     p["published"] = meta["article:published_time"][:10]
+            if not p.get("image") and entry.get("image"):
+                p["image"] = good_url(entry["image"])
             if entry.get("title") and not p.get("title"):
                 p["title"] = clean(entry["title"], 160)
             if p.get("title"):
