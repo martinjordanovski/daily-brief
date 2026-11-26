@@ -1,82 +1,82 @@
 {
- "checked": "2026-11-25T13:47:15+00:00",
+ "checked": "2026-11-26T15:14:47+00:00",
  "sources": [
   {
    "category": "ai",
    "source": "OpenAI",
    "ok": true,
    "items": 25,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "ai",
    "source": "Google AI",
    "ok": true,
    "items": 20,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "ai",
    "source": "Hugging Face",
    "ok": true,
    "items": 25,
-   "fresh": 2
+   "fresh": 4
   },
   {
    "category": "ai",
    "source": "The Verge AI",
    "ok": true,
    "items": 10,
-   "fresh": 7
+   "fresh": 6
   },
   {
    "category": "ai",
    "source": "TechCrunch AI",
    "ok": true,
    "items": 20,
-   "fresh": 14
+   "fresh": 8
   },
   {
    "category": "ai",
    "source": "MIT Technology Review",
    "ok": true,
    "items": 10,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "ai",
    "source": "Simon Willison",
    "ok": true,
    "items": 25,
-   "fresh": 2
+   "fresh": 3
   },
   {
    "category": "ai",
    "source": "Hacker News",
    "ok": true,
-   "items": 6,
-   "fresh": 6
+   "items": 5,
+   "fresh": 4
   },
   {
    "category": "ai",
    "source": "NVIDIA Blog",
    "ok": true,
    "items": 18,
-   "fresh": 0
+   "fresh": 1
   },
   {
    "category": "ai",
    "source": "Ars Technica AI",
    "ok": true,
    "items": 20,
-   "fresh": 6
+   "fresh": 1
   },
   {
    "category": "ai",
    "source": "The Decoder",
    "ok": true,
    "items": 10,
-   "fresh": 10
+   "fresh": 8
   },
   {
    "category": "ai",
@@ -90,21 +90,21 @@
    "source": "Latent Space",
    "ok": true,
    "items": 20,
-   "fresh": 1
+   "fresh": 2
   },
   {
    "category": "dev",
    "source": "GitHub Blog",
    "ok": true,
    "items": 10,
-   "fresh": 1
+   "fresh": 2
   },
   {
    "category": "dev",
    "source": "InfoQ",
    "ok": true,
    "items": 15,
-   "fresh": 6
+   "fresh": 9
   },
   {
    "category": "dev",
@@ -124,7 +124,7 @@
    "category": "dev",
    "source": "Hacker News",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "fresh": 2
   },
   {
@@ -139,42 +139,42 @@
    "source": "Spring Blog",
    "ok": true,
    "items": 4,
-   "fresh": 0
+   "fresh": 1
   },
   {
    "category": "dev",
    "source": "JetBrains Blog",
    "ok": true,
    "items": 12,
-   "fresh": 6
+   "fresh": 2
   },
   {
    "category": "dev",
    "source": "Stack Overflow Blog",
    "ok": true,
    "items": 25,
-   "fresh": 3
+   "fresh": 1
   },
   {
    "category": "dev",
    "source": "Cloudflare Blog",
    "ok": true,
    "items": 20,
-   "fresh": 0
+   "fresh": 1
   },
   {
    "category": "dev",
    "source": "AWS News Blog",
    "ok": true,
    "items": 20,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "dev",
    "source": "The New Stack",
    "ok": true,
    "items": 25,
-   "fresh": 8
+   "fresh": 4
   },
   {
    "category": "tech",
@@ -188,21 +188,21 @@
    "source": "Ars Technica",
    "ok": true,
    "items": 20,
-   "fresh": 18
+   "fresh": 12
   },
   {
    "category": "tech",
    "source": "TechCrunch",
    "ok": true,
    "items": 20,
-   "fresh": 20
+   "fresh": 15
   },
   {
    "category": "tech",
    "source": "Hacker News",
    "ok": true,
-   "items": 14,
-   "fresh": 12
+   "items": 17,
+   "fresh": 14
   },
   {
    "category": "tech",
@@ -216,14 +216,14 @@
    "source": "Engadget",
    "ok": true,
    "items": 20,
-   "fresh": 20
+   "fresh": 15
   },
   {
    "category": "tech",
    "source": "BBC Technology",
    "ok": true,
    "items": 21,
-   "fresh": 7
+   "fresh": 1
   },
   {
    "category": "tech",
@@ -243,8 +243,8 @@
    "category": "hype",
    "source": "Show HN",
    "ok": true,
-   "items": 1,
-   "fresh": 1
+   "items": 0,
+   "fresh": 0
   },
   {
    "category": "hype",
@@ -258,105 +258,7 @@
    "source": "Product Hunt",
    "ok": true,
    "items": 25,
-   "fresh": 13
-  },
-  {
-   "category": "leadership",
-   "source": "MIT Sloan Management Review",
-   "ok": true,
-   "items": 20,
-   "fresh": 2
-  },
-  {
-   "category": "leadership",
-   "source": "LeadDev",
-   "ok": true,
-   "items": 10,
-   "fresh": 6
-  },
-  {
-   "category": "leadership",
-   "source": "Lenny's Newsletter",
-   "ok": true,
-   "items": 20,
-   "fresh": 5
-  },
-  {
-   "category": "leadership",
-   "source": "Irrational Exuberance (Will Larson)",
-   "ok": true,
-   "items": 12,
-   "fresh": 2
-  },
-  {
-   "category": "leadership",
-   "source": "Rands in Repose",
-   "ok": true,
-   "items": 25,
-   "fresh": 3
-  },
-  {
-   "category": "leadership",
-   "source": "Refactoring (Luca Rossi)",
-   "ok": true,
-   "items": 20,
-   "fresh": 2
-  },
-  {
-   "category": "psychology",
-   "source": "ScienceDaily: Mind & Brain",
-   "ok": true,
-   "items": 25,
-   "fresh": 15
-  },
-  {
-   "category": "psychology",
-   "source": "Greater Good (Berkeley)",
-   "ok": true,
-   "items": 25,
-   "fresh": 4
-  },
-  {
-   "category": "psychology",
-   "source": "Psychology Today",
-   "ok": true,
-   "items": 25,
-   "fresh": 25
-  },
-  {
-   "category": "psychology",
-   "source": "PsyPost",
-   "ok": true,
-   "items": 20,
-   "fresh": 20
-  },
-  {
-   "category": "psychology",
-   "source": "APS Psychological Science",
-   "ok": true,
-   "items": 10,
-   "fresh": 4
-  },
-  {
-   "category": "investing",
-   "source": "CNBC",
-   "ok": true,
-   "items": 25,
-   "fresh": 25
-  },
-  {
-   "category": "investing",
-   "source": "MarketWatch",
-   "ok": true,
-   "items": 10,
-   "fresh": 10
-  },
-  {
-   "category": "investing",
-   "source": "Seeking Alpha Market News",
-   "ok": true,
-   "items": 7,
-   "fresh": 7
+   "fresh": 14
   }
  ]
 }

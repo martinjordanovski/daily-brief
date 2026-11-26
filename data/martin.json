@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-25T14:48:32+01:00",
+ "updated": "2026-11-26T16:15:32+01:00",
  "youtube": {
   "profile": "https://www.youtube.com/@martin.jordanovski",
   "top": [
    {
     "id": "eivWsr4TEP0",
     "title": "Building with AI got cheaper. Outcomes didn't. Maintaining didn't.",
-    "views": 1015,
+    "views": 1014,
     "published": "2026-11-21"
    },
    {
     "id": "Uzpb-Xtdv9Y",
     "title": "4 AI Coding Workflow Philosophies. Do You Still Need One?",
-    "views": 967,
+    "views": 968,
     "published": "2026-11-08"
    },
    {
     "id": "J7snn5Br4vI",
     "title": "AI Agent Leaked Every Email (via MCP), and How to Fix It.",
-    "views": 817,
+    "views": 818,
     "published": "2026-11-06"
    },
    {
@@ -30,16 +30,16 @@
   ],
   "newest": [
    {
-    "id": "eDg7enYfMU4",
-    "title": "Same AI Agents. Why Do Some Engineers Ship While Others Babysit?",
-    "views": 88,
+    "id": "d3qvHPGkrS8",
+    "title": "5,000 GitHub Accounts Hijacked. Every Check Stayed Green.",
+    "views": 34,
     "published": "2026-11-22"
    },
    {
-    "id": "S_Lq3yMaw4Y",
-    "title": "AI Metrics - Are We Optimizing What We Can Count?",
-    "views": 556,
-    "published": "2026-11-15"
+    "id": "eDg7enYfMU4",
+    "title": "Same AI Agents. Why Do Some Engineers Ship While Others Babysit?",
+    "views": 89,
+    "published": "2026-11-22"
    }
   ]
  },

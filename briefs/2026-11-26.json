@@ -1,0 +1,350 @@
+{
+ "date": "2026-11-26",
+ "generated": "2026-11-26T16:15:31+01:00",
+ "model": "claude-haiku-5-5",
+ "weekly": false,
+ "top": [
+  {
+   "section": "ai",
+   "index": 0
+  },
+  {
+   "section": "dev",
+   "index": 0
+  },
+  {
+   "section": "tech",
+   "index": 0
+  }
+ ],
+ "sections": [
+  {
+   "id": "ai",
+   "label": "AI",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "Nvidia halts server shipments to four Southeast Asian countries after US export rules",
+     "summary": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia. The move follows new US export controls aimed at Chinese cloud access, and dealers are reportedly seeking buyers for thousands of B300 chips.",
+     "why": "Export rules that freeze hardware supply in nearby regions could delay capacity planning and cloud costs for teams that depend on GPU infrastructure.",
+     "sources": [
+      {
+       "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+       "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
+      }
+     ]
+    },
+    {
+     "headline": "Microsoft details ARTEX, an AI framework used by state-backed hackers for cyberattacks",
+     "summary": "Microsoft has published the architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and little human involvement. Groups linked to China and North Korea, along with criminal organizations, are already using it.",
+     "why": "Autonomous attack tooling raises the bar for security teams, who will need to plan defenses against agent-driven intrusions.",
+     "sources": [
+      {
+       "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+       "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/10/microsoft_human_touch.png"
+      }
+     ]
+    },
+    {
+     "headline": "42 state AGs move to stop Character.AI from auctioning users' private chat histories",
+     "summary": "A coalition of 42 state attorneys general is challenging Character.AI's plan to sell user chat data during its Chapter 11 bankruptcy. They say the sale would include data from more than 21 million US accounts, including 2.1 million tied to minors.",
+     "why": "The case shows how user data can be treated as an asset in insolvency, which matters for any team handling chat or personal data.",
+     "sources": [
+      {
+       "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+       "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+       "source": "The Verge AI",
+       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&strip=all&crop=0,0,100,100"
+      },
+      {
+       "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+       "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+       "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "FCC authorizes SpaceX to deploy up to 1 million orbital AI data center satellites",
+     "summary": "The FCC has approved SpaceX's plan to launch up to 1 million satellites carrying AI chips under its Starmind initiative. Launches are targeted for 2027 and the full constellation for 2040, and Google and Blue Origin are also pursuing space-based AI infrastructure.",
+     "why": "If it proceeds, orbital compute could become a new infrastructure option, though the timeline is long and uncertain for near-term planning.",
+     "sources": [
+      {
+       "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+       "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/11/SpaceX-xAI-Satellite-scaled.png"
+      },
+      {
+       "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+       "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+       "source": "The Verge AI",
+       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&strip=all&crop=0,0,100,100"
+      }
+     ]
+    },
+    {
+     "headline": "Amazon and Meta reportedly in talks to lift block on Meta's Muse shopping agent",
+     "summary": "Amazon and Meta are discussing a deal that would end the two-month block on Muse, Meta's AI shopping agent, which Amazon removed from its store in September. Reported sticking points are ad revenue and control over search results.",
+     "why": "The outcome will shape how AI agents are allowed to access major commerce platforms and how those platforms handle agent-driven search.",
+     "sources": [
+      {
+       "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
+       "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/10/met_muse_gadget_logo.jpg"
+      },
+      {
+       "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+       "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+       "source": "The Verge AI",
+       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100"
+      },
+      {
+       "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+       "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+       "source": "TechCrunch AI"
+      }
+     ]
+    },
+    {
+     "headline": "OpenAI to use a single usage meter across ChatGPT as Chat and Work merge",
+     "summary": "OpenAI will combine the Chat and Work experiences in ChatGPT under one usage meter, so heavy users may reach limits sooner. Reports also say limits for some of its models are now being hit faster.",
+     "why": "Teams relying on ChatGPT for daily work may need to plan around tighter and combined usage caps.",
+     "sources": [
+      {
+       "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+       "source": "TechCrunch AI",
+       "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800"
+      },
+      {
+       "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+       "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+       "source": "Hacker News"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dev",
+   "label": "Software Development",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": ".NET 11 makes CoreCLR the default MAUI runtime and adds incremental XAML hot reload",
+     "summary": "Microsoft's .NET 11 release includes a MAUI update focused on quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload and faster resource dictionaries.",
+     "why": "Teams building cross-platform mobile apps get a new default runtime and faster XAML iteration, which affects build and test workflows.",
+     "sources": [
+      {
+       "title": ".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload",
+       "url": "https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/en/headerimage/header-1795560880894.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "DoorDash rebuilds dispatch for 10x throughput at 99.99% peak availability",
+     "summary": "DoorDash replaced its monolithic dispatch optimization engine with a distributed design that separates coordination from computation. The new system reports 10x higher throughput and over 99.99% peak availability, with support for hybrid ML inference.",
+     "why": "It is a concrete example of splitting a monolithic optimizer into distributed parts to scale a real-time system without losing reliability.",
+     "sources": [
+      {
+       "title": "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability",
+       "url": "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/doordash-dispatch-redesign/en/headerimage/generatedHeaderImage-1793847001864.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "GitHub moves github.com from CSS-in-JS to CSS Modules and cuts SSR time 55%",
+     "summary": "After a three-year migration, GitHub moved github.com from styled-components to CSS Modules. It reports 55% lower server-side rendering time and 25% faster component initialisation, with codemods and Copilot agents doing much of the conversion.",
+     "why": "Large front-end migrations can be done incrementally behind feature flags and automated with codemods, and the measured rendering gains are substantial.",
+     "sources": [
+      {
+       "title": "GitHub Ditches CSS-in-JS for CSS Modules, Reports 55% Faster SSR After Three-Year Migration",
+       "url": "https://www.infoq.com/news/2026/11/github-css-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/github-css-migration/en/headerimage/generatedHeaderImage-1795537886697.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Mock Service Worker 3.0 goes ESM-only and adds socket-level Node interception",
+     "summary": "Mock Service Worker 3.0 is ESM-only, requires Node.js 22 or later, and shrinks the package from 416KB to 234KB. It adds GraphQL subscription support and intercepts Node traffic at the TCP and TLS level, though some users report new test failures.",
+     "why": "Teams using MSW in test suites must check their Node version and module setup before upgrading, since some users see failures.",
+     "sources": [
+      {
+       "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
+       "url": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/mock-service-worker-v3/en/headerimage/generatedHeaderImage-1795626212829.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Vercel launches Board to coordinate tasks between humans and coding agents",
+     "summary": "Vercel has released an experimental Board, a headless message store where people and coding agents claim leased tasks and declare dependencies. It syncs threads with Slack, GitHub and Linear.",
+     "why": "It points to shared task queues as a way to coordinate mixed teams of developers and AI agents without losing track of ownership.",
+     "sources": [
+      {
+       "title": "Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents",
+       "url": "https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/vercel-board-agents/en/headerimage/generatedHeaderImage-1795183495782.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "label": "Technology",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "1Password says intruder reached its source code and customer data",
+     "summary": "An intruder planted malicious code in 1Password's backend services and obtained source code and customer data. The company says user passwords are safe.",
+     "why": "Stolen source code and planted backend code raise supply-chain concerns for teams that rely on password managers and their secrets.",
+     "sources": [
+      {
+       "title": "Hackers help themselves to 1Password's source code and customer data",
+       "url": "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317",
+       "source": "The Register",
+       "image": "https://image.theregister.com/?imageId=5306978&width=800"
+      }
+     ]
+    },
+    {
+     "headline": "Rackspace shuts down Spot cloud service after security breach",
+     "summary": "Rackspace has discontinued its Spot cloud service following a security breach. Customers must quickly move their workloads elsewhere and rotate credentials that may be compromised.",
+     "why": "Teams using the service need to plan migrations and credential rotation on short notice, and it is a reminder to audit third-party cloud dependencies.",
+     "sources": [
+      {
+       "title": "Rackspace pulls plug on Spot cloud service after security breach",
+       "url": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
+       "source": "The Register",
+       "image": "https://image.theregister.com/?imageId=5242796&width=800"
+      }
+     ]
+    },
+    {
+     "headline": "Linux kernel NFS server flaw allows pre-auth remote root, unpatched for 12 years",
+     "summary": "A vulnerability in the Linux kernel's NFS server, dubbed nfs2root, allows remote root access without authentication. It has reportedly existed for about 12 years.",
+     "why": "Any server exposing NFS to a network may be at risk, so operators should check kernel versions and patch status promptly.",
+     "sources": [
+      {
+       "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+       "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+       "source": "Hacker News",
+       "image": "https://opensec.in/blog/media/ddf81bad-ef8d-43da-8d5b-bbb9d0a5f9a3.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Microsoft's hotpatch can crash Windows Server 2025 via expiring IPv6 routes",
+     "summary": "A Microsoft hotpatch can itself cause crashes on Windows Server 2025 when IPv6 routes expire. A corrective update is available that does not require a restart.",
+     "why": "Patch pipelines can introduce outages of their own, so teams running Windows Server should verify fixes before rolling them out widely.",
+     "sources": [
+      {
+       "title": "Microsoft hotpatches hotpatch that could crash Windows Server 2025",
+       "url": "https://www.theregister.com/os-platforms/2026/11/26/microsoft-hotpatches-hotpatch-that-could-crash-windows-server-2025/5312301",
+       "source": "The Register",
+       "image": "https://image.theregister.com/?imageId=4093838&width=800"
+      }
+     ]
+    },
+    {
+     "headline": "Neuralink gets FDA approval for pivotal brain implant trial in ALS patients",
+     "summary": "The FDA has allowed Neuralink to begin the first pivotal trial of its brain-computer interface in patients with ALS.",
+     "why": "A pivotal trial is a major regulatory milestone for brain-computer interfaces, and its results will shape the field's medical software and hardware standards.",
+     "sources": [
+      {
+       "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+       "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+       "source": "Engadget",
+       "image": "https://www.engadget.com/img/gallery/neuralink-receives-fda-approval-for-pivotal-brain-implant-trial-in-als-patients/l-intro-1795677911.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hype",
+   "label": "Hype / Trending now",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "Claude-BugHunter: Claude Code skill bundle for bug hunting tops GitHub Trending",
+     "summary": "A Python skill bundle for Claude Code, covering bug hunting and external red-team work, gained 1,652 stars today. It includes 85 skills, 16 slash commands and 681 disclosed-report patterns across 24 vulnerability areas.",
+     "why": "Agent skill packs are spreading into security testing, so teams should review what such tools can run against their systems. Trending stars show interest, not proven results.",
+     "sources": [
+      {
+       "title": "elementalsouls/Claude-BugHunter: A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerabilit",
+       "url": "https://github.com/elementalsouls/Claude-BugHunter",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-26/elementalsouls/Claude-BugHunter"
+      }
+     ]
+    },
+    {
+     "headline": "Firecrawl pitches itself as knowledge infrastructure for AI agents",
+     "summary": "The Firecrawl repository gained 1,135 stars today and now has about 210,000 in total. It offers search, scraping and access to more than 550 data providers through one API.",
+     "why": "Agents need reliable web and data access, and a single API for that could simplify agent stacks. The popularity is a sign of interest rather than evidence of fit.",
+     "sources": [
+      {
+       "title": "firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+       "url": "https://github.com/firecrawl/firecrawl",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-26/firecrawl/firecrawl"
+      }
+     ]
+    },
+    {
+     "headline": "CLI-Anything aims to make all software agent-native through command lines",
+     "summary": "The HKUDS CLI-Anything project gained 1,106 stars today, with about 65,700 in total. It pitches a CLI hub so that AI agents can operate existing software; the approach is still a pitch rather than a proven result.",
+     "why": "If software exposes agent-friendly command interfaces, automation and integration work for engineering teams could change. Adoption is still unproven.",
+     "sources": [
+      {
+       "title": "HKUDS/CLI-Anything: \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+       "url": "https://github.com/HKUDS/CLI-Anything",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-26/HKUDS/CLI-Anything"
+      }
+     ]
+    },
+    {
+     "headline": "obra/superpowers keeps climbing as an agentic skills framework",
+     "summary": "The superpowers framework, which describes itself as a skills framework and software development methodology for agents, gained 903 stars today and has about 326,700 in total. It is among the most-starred agent projects on GitHub Trending.",
+     "why": "Teams adopting coding agents are looking for shared workflows and skills, and this project offers one. High star counts do not show that the methodology works in practice.",
+     "sources": [
+      {
+       "title": "obra/superpowers: An agentic skills framework & software development methodology that works.",
+       "url": "https://github.com/obra/superpowers",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-26/obra/superpowers"
+      }
+     ]
+    },
+    {
+     "headline": "Diagram-design skill draws attention for editorial diagrams across coding agents",
+     "summary": "The diagram-design repository gained 1,141 stars today and about 73,100 in total. It provides 52 diagram types as self-contained HTML and SVG for several coding agents and explicitly avoids Mermaid.",
+     "why": "Documentation and architecture diagrams are a common need for engineering teams, and a portable generator for many agents could simplify them. Its popularity is not evidence of…",
+     "sources": [
+      {
+       "title": "cathrynlavery/diagram-design: Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid",
+       "url": "https://github.com/cathrynlavery/diagram-design",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-26/cathrynlavery/diagram-design"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

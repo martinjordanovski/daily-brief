@@ -6,6 +6,17 @@
   <description>AI, technology and software development news, summarised every morning. Leadership, psychology and investing on Mondays.</description>
   <language>en</language>
   <item>
+    <title>Daily brief, 26 Nov 2026</title>
+    <link>https://martinjordanovski.com/daily-brief/#2026-11-26</link>
+    <guid isPermaLink="false">daily-brief-2026-11-26</guid>
+    <pubDate>Thu, 26 Nov 2026 16:15:31 +0100</pubDate>
+    <description>Nvidia halts server shipments to four Southeast Asian countries after US export rules: Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia. The move follows new US export controls aimed at Chinese cloud access, and dealers are reportedly seeking buyers for thousands of B300 chips.
+
+.NET 11 makes CoreCLR the default MAUI runtime and adds incremental XAML hot reload: Microsoft's .NET 11 release includes a MAUI update focused on quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload and faster resource dictionaries.
+
+1Password says intruder reached its source code and customer data: An intruder planted malicious code in 1Password's backend services and obtained source code and customer data. The company says user passwords are safe.</description>
+  </item>
+  <item>
     <title>Daily brief, 25 Nov 2026</title>
     <link>https://martinjordanovski.com/daily-brief/#2026-11-25</link>
     <guid isPermaLink="false">daily-brief-2026-11-25</guid>
