@@ -1,0 +1,271 @@
+{
+ "date": "2026-11-27",
+ "generated": "2026-11-27T16:04:55+01:00",
+ "model": "claude-haiku-5-5",
+ "weekly": false,
+ "top": [
+  {
+   "section": "ai",
+   "index": 0
+  },
+  {
+   "section": "dev",
+   "index": 0
+  },
+  {
+   "section": "tech",
+   "index": 0
+  }
+ ],
+ "sections": [
+  {
+   "id": "ai",
+   "label": "AI",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "SAP plans to cut at least 10,000 jobs in AI restructuring",
+     "summary": "SAP is preparing to eliminate at least 10,000 positions as part of a broad restructuring around AI, according to Bloomberg, citing people familiar with the matter.",
+     "why": "Large enterprise software vendors are reorganising around AI, which signals how workforce planning and skills demand may shift across the industry.",
+     "sources": [
+      {
+       "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+       "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png"
+      }
+     ]
+    },
+    {
+     "headline": "Nvidia pauses server shipments to four Southeast Asian countries",
+     "summary": "Nvidia has told manufacturing partners to halt server shipments to Malaysia, Singapore, Thailand and Indonesia. The move follows a U.S. push to stop AI chips from reaching China.",
+     "why": "Export controls and chip supply shifts can delay infrastructure projects and raise hardware costs for teams planning AI capacity.",
+     "sources": [
+      {
+       "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+       "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+       "source": "TechCrunch AI",
+       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024"
+      }
+     ]
+    },
+    {
+     "headline": "OpenAI fixes billing bug that gave GPT-6.2 users wrong discounts",
+     "summary": "OpenAI says a billing error gave some GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit usage limits faster, and OpenAI is offering subscribers an extra limit reset and business users free Fast Mode through year-end.",
+     "why": "Usage limits and pricing changes affect how teams budget for and rely on hosted models, and a billing error can disrupt that planning.",
+     "sources": [
+      {
+       "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+       "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png"
+      }
+     ]
+    },
+    {
+     "headline": "Chinese AI developers delay models as US labs restrict training data",
+     "summary": "Z.AI and Moonshot AI have reportedly postponed their next flagship models and are looking for other training data sources, including Google and Meta, after OpenAI and Anthropic closed access to their data.",
+     "why": "Restricted access to training data is changing where model developers source data, which can affect model availability and competition.",
+     "sources": [
+      {
+       "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+       "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/11/us_china.png"
+      }
+     ]
+    },
+    {
+     "headline": "FCC approves SpaceX plan for up to 1 million orbital AI data center satellites",
+     "summary": "The FCC has authorised SpaceX to deploy up to one million Starmind satellites that would process AI data in orbit. SpaceX targets first launches in 2027, with the full constellation operating by 2040.",
+     "why": "Orbital compute is a long-horizon idea, but it signals where AI infrastructure investment may head beyond terrestrial data centres.",
+     "sources": [
+      {
+       "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+       "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+       "source": "The Decoder",
+       "image": "https://the-decoder.com/wp-content/uploads/2026/11/SpaceX-xAI-Satellite-scaled.png"
+      }
+     ]
+    },
+    {
+     "headline": "Hugging Face shows video generation with LTX-2.5 on AWS Trainium3",
+     "summary": "Hugging Face has published a post on generating videos with the LTX-2.5 model running on AWS Trainium3 accelerators.",
+     "why": "It is an early benchmark of non-Nvidia AI accelerators for generative video, relevant to teams weighing hardware options for inference.",
+     "sources": [
+      {
+       "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+       "url": "https://huggingface.co/blog/video-trainium3",
+       "source": "Hugging Face",
+       "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dev",
+   "label": "Software Development",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "Meta's PyTorch lets an AI reviewer auto-approve maintainers' pull requests",
+     "summary": "PyTorch now uses GreenLight, an open-source version of Meta's RADAR system, so an AI reviewer can approve low-risk pull requests from maintainers. It relies on a safety check, a risk score and an LLM review, while humans stay in the loop.",
+     "why": "Shows how teams can automate merge approvals for low-risk changes, which could reduce review bottlenecks in large open-source projects.",
+     "sources": [
+      {
+       "title": "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+       "url": "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/uber-agent-spend-steady/en/headerimage/radar-header-1200x630-1795391031838.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Netflix builds Quasar to trace the impact of library API changes",
+     "summary": "Netflix built Quasar, an internal tool that combines semantic code indexing with API comparisons to find downstream consumers affected by library changes. It uses SCIP, Amazon S3 and Athena to trace API references across repositories.",
+     "why": "Gives maintainers a way to measure the blast radius of breaking changes before release, making migrations easier to plan.",
+     "sources": [
+      {
+       "title": "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+       "url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Cloudflare adds one-toggle search for AI agents on websites",
+     "summary": "Cloudflare has launched a feature that lets site owners enable search for AI agents with a single setting, so agents can find and retrieve relevant content. The site owners pay for the search queries.",
+     "why": "Changes how websites expose content to AI agents and introduces a new cost for site operators to plan for.",
+     "sources": [
+      {
+       "title": "Cloudflare now lets websites add search for AI agents with a single toggle. Site owners foot the query bill.",
+       "url": "https://thenewstack.io/cloudflare-agent-search-endpoint/",
+       "source": "The New Stack",
+       "image": "https://cdn.thenewstack.io/media/2026/11/7ea76efc-growtika-o7uvqahgeos-unsplash-1024x576.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Grafana starts its biggest UI refresh since version 7",
+     "summary": "Grafana Labs has released the first phase of a major visual redesign of its observability platform. It includes updated themes, more consistent interface components and a clearer visual hierarchy.",
+     "why": "Engineers who use Grafana daily will see interface changes, and teams may need to review dashboards and training material.",
+     "sources": [
+      {
+       "title": "Grafana Begins Its Biggest UI Refresh Since Version 7",
+       "url": "https://www.infoq.com/news/2026/11/grfana-ui-refresh/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/grfana-ui-refresh/en/headerimage/generatedHeaderImage-1795008225435.jpg"
+      }
+     ]
+    },
+    {
+     "headline": "Mozilla adds Mistral's open-weight model to Firefox Smart Window beta",
+     "summary": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, as an option in Firefox's Smart Window AI assistant, now in beta. Mistral has agreed to zero data retention, and the beta feedback is mixed.",
+     "why": "Shows browsers offering users a choice of AI models with stated data-retention terms, a pattern product teams may need to weigh.",
+     "sources": [
+      {
+       "title": "Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window",
+       "url": "https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+       "source": "InfoQ",
+       "image": "https://res.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/en/headerimage/generatedHeaderImage-1795716059601.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "label": "Technology",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "1Password says it was hacked but customer vaults were not compromised",
+     "summary": "1Password disclosed a recent breach and said customers' logins and other sensitive information were not compromised. Users are being told the vaults are safe.",
+     "why": "Password managers hold credentials for entire engineering teams, so teams should confirm how the vendor's incident affects their secrets and rotation plans.",
+     "sources": [
+      {
+       "title": "1Password says it was hacked but users' vaults are safe",
+       "url": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
+       "source": "Engadget",
+       "image": "https://www.engadget.com/img/gallery/1password-says-it-was-hacked-but-users-vaults-are-safe/l-intro-1795678680.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hype",
+   "label": "Hype / Trending now",
+   "cadence": "daily",
+   "stories": [
+    {
+     "headline": "Claude-BugHunter, a Claude Code bug-hunting skill bundle, trends on GitHub",
+     "summary": "A Claude Code skill bundle for bug hunting and external red-team work gained about 1,600 GitHub stars in one day. It includes 85 skills, 16 slash commands and 681 disclosed-report patterns across 24 vulnerability areas.",
+     "why": "Shows strong developer interest in packaging security workflows as reusable agent skills, though star counts alone do not show the bundle's quality.",
+     "sources": [
+      {
+       "title": "elementalsouls/Claude-BugHunter: A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerabilit",
+       "url": "https://github.com/elementalsouls/Claude-BugHunter",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-27/elementalsouls/Claude-BugHunter"
+      }
+     ]
+    },
+    {
+     "headline": "Firecrawl pitches one API for search and scraping across 550+ data providers",
+     "summary": "The Firecrawl repository gained about 1,000 stars today and has over 210,000 in total. It positions itself as knowledge infrastructure that lets AI agents search, scrape and access many data sources through one API.",
+     "why": "Agent builders are looking for simpler data access layers, and this is a large, fast-growing option, though its real-world reliability is not yet proven here.",
+     "sources": [
+      {
+       "title": "firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+       "url": "https://github.com/firecrawl/firecrawl",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-27/firecrawl/firecrawl"
+      }
+     ]
+    },
+    {
+     "headline": "Editorial diagram-design skill for coding assistants draws attention on GitHub",
+     "summary": "A diagram design project for Claude Code, Codex, GitHub Copilot, Cursor and other coding tools gained about 950 stars today. It offers 52 diagram types as self-contained HTML and SVG, without Mermaid.",
+     "why": "Developers want diagrams generated inside their coding assistants, and the no-Mermaid approach is a notable alternative for documentation workflows.",
+     "sources": [
+      {
+       "title": "cathrynlavery/diagram-design: Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid",
+       "url": "https://github.com/cathrynlavery/diagram-design",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-27/cathrynlavery/diagram-design"
+      }
+     ]
+    },
+    {
+     "headline": "Superpowers agentic skills framework keeps climbing GitHub Trending",
+     "summary": "The obra/superpowers repository, described as an agentic skills framework and software development methodology, gained about 850 stars today and has over 327,000 in total. It is one of the most-starred projects in the current trending list.",
+     "why": "Its large following suggests many engineers are experimenting with structured methods for guiding coding agents, though popularity does not prove the method works.",
+     "sources": [
+      {
+       "title": "obra/superpowers: An agentic skills framework & software development methodology that works.",
+       "url": "https://github.com/obra/superpowers",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-27/obra/superpowers"
+      }
+     ]
+    },
+    {
+     "headline": "last30days skill synthesizes research from Reddit, X, HN and more",
+     "summary": "An AI agent skill that researches a topic across Reddit, X, YouTube, Hacker News, Polymarket and the web, then writes a grounded summary, gained about 760 stars today. It has over 75,000 stars in total.",
+     "why": "It reflects growing interest in agent-driven research tools, and teams should check how it grounds and cites its sources before relying on its summaries.",
+     "sources": [
+      {
+       "title": "mvanhorn/last30days-skill: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+       "url": "https://github.com/mvanhorn/last30days-skill",
+       "source": "GitHub Trending",
+       "image": "https://opengraph.githubassets.com/2026-11-27/mvanhorn/last30days-skill"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

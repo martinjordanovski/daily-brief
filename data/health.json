@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-26T15:14:47+00:00",
+ "checked": "2026-11-27T15:04:20+00:00",
  "sources": [
   {
    "category": "ai",
@@ -20,21 +20,21 @@
    "source": "Hugging Face",
    "ok": true,
    "items": 25,
-   "fresh": 4
+   "fresh": 1
   },
   {
    "category": "ai",
    "source": "The Verge AI",
    "ok": true,
    "items": 10,
-   "fresh": 6
+   "fresh": 0
   },
   {
    "category": "ai",
    "source": "TechCrunch AI",
    "ok": true,
    "items": 20,
-   "fresh": 8
+   "fresh": 2
   },
   {
    "category": "ai",
@@ -48,14 +48,14 @@
    "source": "Simon Willison",
    "ok": true,
    "items": 25,
-   "fresh": 3
+   "fresh": 1
   },
   {
    "category": "ai",
    "source": "Hacker News",
    "ok": true,
-   "items": 5,
-   "fresh": 4
+   "items": 4,
+   "fresh": 3
   },
   {
    "category": "ai",
@@ -69,14 +69,14 @@
    "source": "Ars Technica AI",
    "ok": true,
    "items": 20,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "ai",
    "source": "The Decoder",
    "ok": true,
    "items": 10,
-   "fresh": 8
+   "fresh": 5
   },
   {
    "category": "ai",
@@ -90,28 +90,28 @@
    "source": "Latent Space",
    "ok": true,
    "items": 20,
-   "fresh": 2
+   "fresh": 1
   },
   {
    "category": "dev",
    "source": "GitHub Blog",
    "ok": true,
    "items": 10,
-   "fresh": 2
+   "fresh": 0
   },
   {
    "category": "dev",
    "source": "InfoQ",
    "ok": true,
    "items": 15,
-   "fresh": 9
+   "fresh": 7
   },
   {
    "category": "dev",
    "source": "The Pragmatic Engineer",
    "ok": true,
    "items": 20,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "dev",
@@ -124,7 +124,7 @@
    "category": "dev",
    "source": "Hacker News",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "fresh": 2
   },
   {
@@ -132,21 +132,21 @@
    "source": "Inside Java",
    "ok": true,
    "items": 10,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "dev",
    "source": "Spring Blog",
    "ok": true,
    "items": 4,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "dev",
    "source": "JetBrains Blog",
    "ok": true,
    "items": 12,
-   "fresh": 2
+   "fresh": 3
   },
   {
    "category": "dev",
@@ -160,7 +160,7 @@
    "source": "Cloudflare Blog",
    "ok": true,
    "items": 20,
-   "fresh": 1
+   "fresh": 0
   },
   {
    "category": "dev",
@@ -174,35 +174,35 @@
    "source": "The New Stack",
    "ok": true,
    "items": 25,
-   "fresh": 4
+   "fresh": 3
   },
   {
    "category": "tech",
    "source": "The Verge",
    "ok": true,
    "items": 10,
-   "fresh": 10
+   "fresh": 8
   },
   {
    "category": "tech",
    "source": "Ars Technica",
    "ok": true,
    "items": 20,
-   "fresh": 12
+   "fresh": 4
   },
   {
    "category": "tech",
    "source": "TechCrunch",
    "ok": true,
    "items": 20,
-   "fresh": 15
+   "fresh": 5
   },
   {
    "category": "tech",
    "source": "Hacker News",
    "ok": true,
-   "items": 17,
-   "fresh": 14
+   "items": 16,
+   "fresh": 11
   },
   {
    "category": "tech",
@@ -216,27 +216,27 @@
    "source": "Engadget",
    "ok": true,
    "items": 20,
-   "fresh": 15
+   "fresh": 9
   },
   {
    "category": "tech",
    "source": "BBC Technology",
    "ok": true,
    "items": 21,
-   "fresh": 1
+   "fresh": 2
   },
   {
    "category": "tech",
    "source": "The Register",
    "ok": true,
    "items": 25,
-   "fresh": 21
+   "fresh": 20
   },
   {
    "category": "hype",
    "source": "Hacker News",
    "ok": true,
-   "items": 9,
+   "items": 12,
    "fresh": 8
   },
   {
@@ -258,7 +258,7 @@
    "source": "Product Hunt",
    "ok": true,
    "items": 25,
-   "fresh": 14
+   "fresh": 6
   }
  ]
 }
